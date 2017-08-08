@@ -18,7 +18,6 @@ package org.wso2.developerstudio.eclipse.gmf.esb.diagram.custom.deserializer;
 
 import static org.wso2.developerstudio.eclipse.gmf.esb.EsbPackage.Literals.CACHE_MEDIATOR__CACHE_ACTION;
 import static org.wso2.developerstudio.eclipse.gmf.esb.EsbPackage.Literals.CACHE_MEDIATOR__CACHE_ID;
-import static org.wso2.developerstudio.eclipse.gmf.esb.EsbPackage.Literals.CACHE_MEDIATOR__CACHE_SCOPE;
 import static org.wso2.developerstudio.eclipse.gmf.esb.EsbPackage.Literals.CACHE_MEDIATOR__CACHE_TIMEOUT;
 import static org.wso2.developerstudio.eclipse.gmf.esb.EsbPackage.Literals.CACHE_MEDIATOR__HASH_GENERATOR;
 import static org.wso2.developerstudio.eclipse.gmf.esb.EsbPackage.Literals.CACHE_MEDIATOR__MAX_ENTRY_COUNT;
@@ -58,11 +57,11 @@ public class CacheMediatorDeserializer extends AbstractEsbNodeDeserializer<Abstr
 				executeSetValueCommand(CACHE_MEDIATOR__CACHE_ID, mediator.getId());
 			}
 
-			if ("per-mediator".equals(mediator.getScope())) {
-				executeSetValueCommand(CACHE_MEDIATOR__CACHE_SCOPE, CacheScope.PER_MEDIATOR);
-			} else if ("per-host".equals(mediator.getScope())) {
-				executeSetValueCommand(CACHE_MEDIATOR__CACHE_SCOPE, CacheScope.PER_HOST);
-			}
+//			if ("per-mediator".equals(mediator.getScope())) {
+//				executeSetValueCommand(CACHE_MEDIATOR__CACHE_SCOPE, CacheScope.PER_MEDIATOR);
+//			} else if ("per-host".equals(mediator.getScope())) {
+//				executeSetValueCommand(CACHE_MEDIATOR__CACHE_SCOPE, CacheScope.PER_HOST);
+//			}
 
 			if (mediator.isCollector()) {
 				executeSetValueCommand(CACHE_MEDIATOR__CACHE_ACTION, CacheAction.COLLECTOR);

@@ -9672,7 +9672,7 @@ public class InboundEndpointImpl extends EsbElementImpl implements InboundEndpoi
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * @generated 
+	 * @generated
 	 */
 	@Override
 	public String toString() {
@@ -10015,8 +10015,6 @@ public class InboundEndpointImpl extends EsbElementImpl implements InboundEndpoi
 		result.append(transportRabbitMqConnectionRetryInterval);
 		result.append(", transportRabbitMqServerRetryInterval: ");
 		result.append(transportRabbitMqServerRetryInterval);
-		result.append(", transportRabbitMqConsumerQos: ");
-		result.append(transportRabbitMqConsumerQos);
 		result.append(", wsInboundPort: ");
 		result.append(wsInboundPort);
 		result.append(", wsClientSideBroadcastLevel: ");

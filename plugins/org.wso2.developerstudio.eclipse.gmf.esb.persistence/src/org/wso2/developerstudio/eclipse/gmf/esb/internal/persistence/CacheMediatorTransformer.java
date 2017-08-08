@@ -79,7 +79,6 @@ public class CacheMediatorTransformer extends AbstractEsbNodeTransformer {
 				if (StringUtils.isNotBlank(visualCache.getCacheId())) {
 					cacheMediator.setId(visualCache.getCacheId());
 				}			
-				cacheMediator.setScope(visualCache.getCacheScope().getLiteral());
 				cacheMediator.setTimeout(visualCache.getCacheTimeout());
 				cacheMediator.setMaxMessageSize(visualCache.getMaxMessageSize());
 				org.wso2.carbon.mediator.cache.digest.DOMHASHGenerator domhashGenerator = new org.wso2.carbon.mediator.cache.digest.DOMHASHGenerator();
@@ -91,7 +90,6 @@ public class CacheMediatorTransformer extends AbstractEsbNodeTransformer {
 				if (StringUtils.isNotBlank(visualCache.getCacheId())) {
 					cacheMediator.setId(visualCache.getCacheId());
 				}
-				cacheMediator.setScope(visualCache.getCacheScope().getLiteral());
 				cacheMediator.setCollector(true);
 			}
 			

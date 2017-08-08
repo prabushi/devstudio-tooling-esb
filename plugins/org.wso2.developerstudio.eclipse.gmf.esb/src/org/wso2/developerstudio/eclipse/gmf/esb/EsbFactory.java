@@ -1770,6 +1770,15 @@ public interface EsbFactory extends EFactory {
 	CommentMediator createCommentMediator();
 
 				/**
+	 * Returns a new object of class '<em>Cache Http Methods</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Cache Http Methods</em>'.
+	 * @generated
+	 */
+	CacheHttpMethods createCacheHttpMethods();
+
+				/**
 	 * Returns a new object of class '<em>Script Mediator</em>'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->

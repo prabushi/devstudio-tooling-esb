@@ -415,6 +415,7 @@ public class EsbFactoryImpl extends EFactoryImpl implements EsbFactory {
 			case EsbPackage.INBOUND_ENDPOINT_ON_ERROR_SEQUENCE_OUTPUT_CONNECTOR: return createInboundEndpointOnErrorSequenceOutputConnector();
 			case EsbPackage.INBOUND_ENDPOINT_ON_ERROR_SEQUENCE_INPUT_CONNECTOR: return createInboundEndpointOnErrorSequenceInputConnector();
 			case EsbPackage.COMMENT_MEDIATOR: return createCommentMediator();
+			case EsbPackage.CACHE_HTTP_METHODS: return createCacheHttpMethods();
 			default:
 				throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier");
 		}
@@ -517,12 +518,8 @@ public class EsbFactoryImpl extends EFactoryImpl implements EsbFactory {
 				return createTargetEndpointTypeFromString(eDataType, initialValue);
 			case EsbPackage.CACHE_SEQUENCE_TYPE:
 				return createCacheSequenceTypeFromString(eDataType, initialValue);
-			case EsbPackage.CACHE_IMPLEMENTATION_TYPE:
-				return createCacheImplementationTypeFromString(eDataType, initialValue);
 			case EsbPackage.CACHE_ACTION:
 				return createCacheActionFromString(eDataType, initialValue);
-			case EsbPackage.CACHE_SCOPE:
-				return createCacheScopeFromString(eDataType, initialValue);
 			case EsbPackage.XQUERY_VARIABLE_TYPE:
 				return createXQueryVariableTypeFromString(eDataType, initialValue);
 			case EsbPackage.XQUERY_VARIABLE_VALUE_TYPE:
@@ -683,8 +680,8 @@ public class EsbFactoryImpl extends EFactoryImpl implements EsbFactory {
 				return createFeedTypeFromString(eDataType, initialValue);
 			case EsbPackage.ENABLE_DISABLE_STATE:
 				return createEnableDisableStateFromString(eDataType, initialValue);
-			case EsbPackage.HASH_GENERATOR:
-				return createHashGeneratorFromString(eDataType, initialValue);
+			case EsbPackage.CACHE_PROTOCOL_TYPE:
+				return createCacheProtocolTypeFromString(eDataType, initialValue);
 			case EsbPackage.MAP:
 				return createMapFromString(eDataType, initialValue);
 			default:
@@ -789,12 +786,8 @@ public class EsbFactoryImpl extends EFactoryImpl implements EsbFactory {
 				return convertTargetEndpointTypeToString(eDataType, instanceValue);
 			case EsbPackage.CACHE_SEQUENCE_TYPE:
 				return convertCacheSequenceTypeToString(eDataType, instanceValue);
-			case EsbPackage.CACHE_IMPLEMENTATION_TYPE:
-				return convertCacheImplementationTypeToString(eDataType, instanceValue);
 			case EsbPackage.CACHE_ACTION:
 				return convertCacheActionToString(eDataType, instanceValue);
-			case EsbPackage.CACHE_SCOPE:
-				return convertCacheScopeToString(eDataType, instanceValue);
 			case EsbPackage.XQUERY_VARIABLE_TYPE:
 				return convertXQueryVariableTypeToString(eDataType, instanceValue);
 			case EsbPackage.XQUERY_VARIABLE_VALUE_TYPE:
@@ -955,8 +948,8 @@ public class EsbFactoryImpl extends EFactoryImpl implements EsbFactory {
 				return convertFeedTypeToString(eDataType, instanceValue);
 			case EsbPackage.ENABLE_DISABLE_STATE:
 				return convertEnableDisableStateToString(eDataType, instanceValue);
-			case EsbPackage.HASH_GENERATOR:
-				return convertHashGeneratorToString(eDataType, instanceValue);
+			case EsbPackage.CACHE_PROTOCOL_TYPE:
+				return convertCacheProtocolTypeToString(eDataType, instanceValue);
 			case EsbPackage.MAP:
 				return convertMapToString(eDataType, instanceValue);
 			default:
@@ -3032,6 +3025,16 @@ public class EsbFactoryImpl extends EFactoryImpl implements EsbFactory {
 	public CommentMediator createCommentMediator() {
 		CommentMediatorImpl commentMediator = new CommentMediatorImpl();
 		return commentMediator;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public CacheHttpMethods createCacheHttpMethods() {
+		CacheHttpMethodsImpl cacheHttpMethods = new CacheHttpMethodsImpl();
+		return cacheHttpMethods;
 	}
 
 	/**
@@ -5611,26 +5614,6 @@ public class EsbFactoryImpl extends EFactoryImpl implements EsbFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public CacheImplementationType createCacheImplementationTypeFromString(EDataType eDataType, String initialValue) {
-		CacheImplementationType result = CacheImplementationType.get(initialValue);
-		if (result == null) throw new IllegalArgumentException("The value '" + initialValue + "' is not a valid enumerator of '" + eDataType.getName() + "'");
-		return result;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String convertCacheImplementationTypeToString(EDataType eDataType, Object instanceValue) {
-		return instanceValue == null ? null : instanceValue.toString();
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
 	public CacheAction createCacheActionFromString(EDataType eDataType, String initialValue) {
 		CacheAction result = CacheAction.get(initialValue);
 		if (result == null) throw new IllegalArgumentException("The value '" + initialValue + "' is not a valid enumerator of '" + eDataType.getName() + "'");
@@ -5643,26 +5626,6 @@ public class EsbFactoryImpl extends EFactoryImpl implements EsbFactory {
 	 * @generated
 	 */
 	public String convertCacheActionToString(EDataType eDataType, Object instanceValue) {
-		return instanceValue == null ? null : instanceValue.toString();
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public CacheScope createCacheScopeFromString(EDataType eDataType, String initialValue) {
-		CacheScope result = CacheScope.get(initialValue);
-		if (result == null) throw new IllegalArgumentException("The value '" + initialValue + "' is not a valid enumerator of '" + eDataType.getName() + "'");
-		return result;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String convertCacheScopeToString(EDataType eDataType, Object instanceValue) {
 		return instanceValue == null ? null : instanceValue.toString();
 	}
 
@@ -7271,8 +7234,8 @@ public class EsbFactoryImpl extends EFactoryImpl implements EsbFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public HashGenerator createHashGeneratorFromString(EDataType eDataType, String initialValue) {
-		HashGenerator result = HashGenerator.get(initialValue);
+	public CacheProtocolType createCacheProtocolTypeFromString(EDataType eDataType, String initialValue) {
+		CacheProtocolType result = CacheProtocolType.get(initialValue);
 		if (result == null) throw new IllegalArgumentException("The value '" + initialValue + "' is not a valid enumerator of '" + eDataType.getName() + "'");
 		return result;
 	}
@@ -7282,7 +7245,7 @@ public class EsbFactoryImpl extends EFactoryImpl implements EsbFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public String convertHashGeneratorToString(EDataType eDataType, Object instanceValue) {
+	public String convertCacheProtocolTypeToString(EDataType eDataType, Object instanceValue) {
 		return instanceValue == null ? null : instanceValue.toString();
 	}
 

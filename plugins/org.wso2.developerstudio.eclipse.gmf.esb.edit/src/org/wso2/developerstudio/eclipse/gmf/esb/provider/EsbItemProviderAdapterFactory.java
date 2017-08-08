@@ -4540,6 +4540,29 @@ public class EsbItemProviderAdapterFactory extends EsbAdapterFactory implements 
 	}
 
 				/**
+	 * This keeps track of the one adapter used for all {@link org.wso2.developerstudio.eclipse.gmf.esb.CacheHttpMethods} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected CacheHttpMethodsItemProvider cacheHttpMethodsItemProvider;
+
+				/**
+	 * This creates an adapter for a {@link org.wso2.developerstudio.eclipse.gmf.esb.CacheHttpMethods}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createCacheHttpMethodsAdapter() {
+		if (cacheHttpMethodsItemProvider == null) {
+			cacheHttpMethodsItemProvider = new CacheHttpMethodsItemProvider(this);
+		}
+
+		return cacheHttpMethodsItemProvider;
+	}
+
+				/**
 	 * This keeps track of the one adapter used for all {@link org.wso2.developerstudio.eclipse.gmf.esb.ScriptMediator} instances.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -8660,6 +8683,7 @@ public class EsbItemProviderAdapterFactory extends EsbAdapterFactory implements 
 		if (inboundEndpointOnErrorSequenceOutputConnectorItemProvider != null) inboundEndpointOnErrorSequenceOutputConnectorItemProvider.dispose();
 		if (inboundEndpointOnErrorSequenceInputConnectorItemProvider != null) inboundEndpointOnErrorSequenceInputConnectorItemProvider.dispose();
 		if (commentMediatorItemProvider != null) commentMediatorItemProvider.dispose();
+		if (cacheHttpMethodsItemProvider != null) cacheHttpMethodsItemProvider.dispose();
 	}
 
 }

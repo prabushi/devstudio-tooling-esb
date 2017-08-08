@@ -175,6 +175,7 @@
   <xsd:element ecore:ignore="true" name="CacheMediatorOutputConnector" type="esb:CacheMediatorOutputConnector"/>
   <xsd:element ecore:ignore="true" name="CacheMediatorOnHitOutputConnector" type="esb:CacheMediatorOnHitOutputConnector"/>
   <xsd:element ecore:ignore="true" name="CacheOnHitBranch" type="esb:CacheOnHitBranch"/>
+  <xsd:element ecore:ignore="true" name="CacheHTTPMethods" type="esb:CacheHttpMethods"/>
   <xsd:element ecore:ignore="true" name="XQueryMediator" type="esb:XQueryMediator"/>
   <xsd:element ecore:ignore="true" name="XQueryMediatorInputConnector" type="esb:XQueryMediatorInputConnector"/>
   <xsd:element ecore:ignore="true" name="XQueryMediatorOutputConnector" type="esb:XQueryMediatorOutputConnector"/>
@@ -2106,26 +2107,28 @@
     </xsd:complexContent>
   </xsd:complexType>
   <xsd:complexType name="CacheMediator">
-    <xsd:complexContent>
-      <xsd:extension base="esb:Mediator">
-        <xsd:sequence>
-          <xsd:element ecore:resolveProxies="true" minOccurs="0" name="sequenceKey" type="esb:RegistryKeyProperty"/>
-          <xsd:element ecore:resolveProxies="true" minOccurs="0" name="inputConnector" type="esb:CacheMediatorInputConnector"/>
-          <xsd:element ecore:resolveProxies="true" minOccurs="0" name="outputConnector" type="esb:CacheMediatorOutputConnector"/>
-          <xsd:element ecore:resolveProxies="true" minOccurs="0" name="onHitOutputConnector" type="esb:CacheMediatorOnHitOutputConnector"/>
-          <xsd:element ecore:resolveProxies="true" minOccurs="0" name="mediatorFlow" type="esb:MediatorFlow"/>
-        </xsd:sequence>
-        <xsd:attribute name="cacheId" type="ecore:EString"/>
-        <xsd:attribute default="PER_MEDIATOR" ecore:unsettable="false" name="cacheScope" type="esb:CacheScope"/>
-        <xsd:attribute default="FINDER" ecore:unsettable="false" name="cacheAction" type="esb:CacheAction"/>
-        <xsd:attribute default="org.wso2.caching.digest.DOMHashGenerator" ecore:unsettable="false" name="hashGenerator" type="ecore:EString"/>
-        <xsd:attribute default="120" ecore:unsettable="false" name="cacheTimeout" type="ecore:EInt"/>
-        <xsd:attribute default="2000" ecore:unsettable="false" name="maxMessageSize" type="ecore:EInt"/>
-        <xsd:attribute default="IN_MEMORY" ecore:unsettable="false" name="implementationType" type="esb:CacheImplementationType"/>
-        <xsd:attribute default="1000" ecore:unsettable="false" name="maxEntryCount" type="ecore:EInt"/>
-        <xsd:attribute default="REGISTRY_REFERENCE" ecore:unsettable="false" name="sequenceType" type="esb:CacheSequenceType"/>
-      </xsd:extension>
-    </xsd:complexContent>
+  	<xsd:complexContent>
+  		<xsd:extension base="esb:Mediator">
+  			<xsd:sequence>
+  				<xsd:element ecore:resolveProxies="true" minOccurs="0" name="sequenceKey" type="esb:RegistryKeyProperty" />
+  				<xsd:element ecore:resolveProxies="true" minOccurs="0" name="inputConnector" type="esb:CacheMediatorInputConnector" />
+  				<xsd:element ecore:resolveProxies="true" minOccurs="0" name="outputConnector" type="esb:CacheMediatorOutputConnector" />
+  				<xsd:element ecore:resolveProxies="true" minOccurs="0" name="onHitOutputConnector" type="esb:CacheMediatorOnHitOutputConnector" />
+  				<xsd:element ecore:resolveProxies="true" minOccurs="0" name="mediatorFlow" type="esb:MediatorFlow" />
+  				<xsd:element ecore:resolveProxies="true" minOccurs="0" name="httpMethods" type="esb:CacheHttpMethods"/>
+  			</xsd:sequence>
+  			<xsd:attribute name="cacheId" type="ecore:EString" />
+  			<xsd:attribute default="FINDER" ecore:unsettable="false" name="cacheAction" type="esb:CacheAction" />
+  			<xsd:attribute default="120" ecore:unsettable="false" name="cacheTimeout" type="ecore:EInt" />
+  			<xsd:attribute default="2000" ecore:unsettable="false" name="maxMessageSize" type="ecore:EInt" />
+  			<xsd:attribute default="1000" ecore:unsettable="false" name="maxEntryCount" type="ecore:EInt" />
+  			<xsd:attribute default="REGISTRY_REFERENCE" ecore:unsettable="false" name="sequenceType" type="esb:CacheSequenceType" />
+  			<xsd:attribute default="http" ecore:unsettable="false" name="protocolType" type="esb:CacheProtocolType" />
+  			<xsd:attribute name="hashGenerator" type="xsd:string" />
+  			<xsd:attribute name="headersToExcludeInHash" type="xsd:string" />
+  			<xsd:attribute name="responseCodes" type="xsd:string" />
+  		</xsd:extension>
+  	</xsd:complexContent>
   </xsd:complexType>
   <xsd:complexType name="CacheMediatorInputConnector">
     <xsd:complexContent>
@@ -2160,12 +2163,26 @@
       <xsd:enumeration value="COLLECTOR"/>
     </xsd:restriction>
   </xsd:simpleType>
-  <xsd:simpleType name="CacheScope">
+  <xsd:simpleType name="CacheProtocolType">
     <xsd:restriction base="xsd:string">
-      <xsd:enumeration ecore:name="PER_MEDIATOR" value="per-mediator"/>
-      <xsd:enumeration ecore:name="PER_HOST" value="per-host"/>
+      <xsd:enumeration ecore:name="HTTP" value="http"/>
     </xsd:restriction>
   </xsd:simpleType>
+  <xsd:complexType name="CacheHttpMethods">
+    <xsd:complexContent>
+      <xsd:extension base="esb:EsbNode">
+	      <xsd:attribute ecore:unsettable="false" name="GET" type="ecore:EBoolean" />
+	      <xsd:attribute ecore:unsettable="false" name="POST" type="ecore:EBoolean" />
+	      <xsd:attribute ecore:unsettable="false" name="PUT" type="ecore:EBoolean" />
+	      <xsd:attribute ecore:unsettable="false" name="DELETE" type="ecore:EBoolean" />
+	      <xsd:attribute ecore:unsettable="false" name="HEAD" type="ecore:EBoolean" />
+	      <xsd:attribute ecore:unsettable="false" name="CONNECT" type="ecore:EBoolean" />
+	      <xsd:attribute ecore:unsettable="false" name="OPTIONS" type="ecore:EBoolean" />
+	      <xsd:attribute ecore:unsettable="false" name="TRACE" type="ecore:EBoolean" />
+	      <xsd:attribute ecore:unsettable="false" name="PATCH" type="ecore:EBoolean" />
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
   <xsd:complexType name="XQueryMediator">
     <xsd:complexContent>
       <xsd:extension base="esb:Mediator">
