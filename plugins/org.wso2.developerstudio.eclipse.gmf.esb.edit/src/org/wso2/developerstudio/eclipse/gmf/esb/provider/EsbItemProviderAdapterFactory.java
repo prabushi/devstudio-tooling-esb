@@ -4610,6 +4610,29 @@ public class EsbItemProviderAdapterFactory extends EsbAdapterFactory
     }
 
     /**
+     * This keeps track of the one adapter used for all {@link org.wso2.developerstudio.eclipse.gmf.esb.ChildEndpoint} instances.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected ChildEndpointItemProvider childEndpointItemProvider;
+
+    /**
+     * This creates an adapter for a {@link org.wso2.developerstudio.eclipse.gmf.esb.ChildEndpoint}.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public Adapter createChildEndpointAdapter() {
+        if (childEndpointItemProvider == null) {
+            childEndpointItemProvider = new ChildEndpointItemProvider(this);
+        }
+
+        return childEndpointItemProvider;
+    }
+
+    /**
      * This keeps track of the one adapter used for all {@link org.wso2.developerstudio.eclipse.gmf.esb.ScriptMediator} instances.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
@@ -8733,6 +8756,7 @@ public class EsbItemProviderAdapterFactory extends EsbAdapterFactory
         if (inboundEndpointOnErrorSequenceOutputConnectorItemProvider != null) inboundEndpointOnErrorSequenceOutputConnectorItemProvider.dispose();
         if (inboundEndpointOnErrorSequenceInputConnectorItemProvider != null) inboundEndpointOnErrorSequenceInputConnectorItemProvider.dispose();
         if (commentMediatorItemProvider != null) commentMediatorItemProvider.dispose();
+        if (childEndpointItemProvider != null) childEndpointItemProvider.dispose();
     }
 
 }

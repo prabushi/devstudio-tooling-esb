@@ -224,6 +224,7 @@ public class LoadBalanceEndPointItemProvider extends ParentEndPointItemProvider 
             childrenFeatures.add(EsbPackage.Literals.LOAD_BALANCE_END_POINT__WEST_OUTPUT_CONNECTOR);
             childrenFeatures.add(EsbPackage.Literals.LOAD_BALANCE_END_POINT__MEMBER);
             childrenFeatures.add(EsbPackage.Literals.LOAD_BALANCE_END_POINT__MEDIATOR_FLOW);
+            childrenFeatures.add(EsbPackage.Literals.LOAD_BALANCE_END_POINT__ENDPOINTS);
         }
         return childrenFeatures;
     }
@@ -291,6 +292,7 @@ public class LoadBalanceEndPointItemProvider extends ParentEndPointItemProvider 
             case EsbPackage.LOAD_BALANCE_END_POINT__WEST_OUTPUT_CONNECTOR:
             case EsbPackage.LOAD_BALANCE_END_POINT__MEMBER:
             case EsbPackage.LOAD_BALANCE_END_POINT__MEDIATOR_FLOW:
+            case EsbPackage.LOAD_BALANCE_END_POINT__ENDPOINTS:
                 fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
                 return;
         }
@@ -332,6 +334,11 @@ public class LoadBalanceEndPointItemProvider extends ParentEndPointItemProvider 
             (createChildParameter
                 (EsbPackage.Literals.LOAD_BALANCE_END_POINT__MEDIATOR_FLOW,
                  EsbFactory.eINSTANCE.createMediatorFlow()));
+
+        newChildDescriptors.add
+            (createChildParameter
+                (EsbPackage.Literals.LOAD_BALANCE_END_POINT__ENDPOINTS,
+                 EsbFactory.eINSTANCE.createChildEndpoint()));
     }
 
 }

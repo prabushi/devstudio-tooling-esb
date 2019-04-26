@@ -1795,6 +1795,15 @@ public interface EsbFactory extends EFactory {
     CommentMediator createCommentMediator();
 
     /**
+     * Returns a new object of class '<em>Child Endpoint</em>'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @return a new object of class '<em>Child Endpoint</em>'.
+     * @generated
+     */
+    ChildEndpoint createChildEndpoint();
+
+    /**
      * Returns a new object of class '<em>Script Mediator</em>'.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->

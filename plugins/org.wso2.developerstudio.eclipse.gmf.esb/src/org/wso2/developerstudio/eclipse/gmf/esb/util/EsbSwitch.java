@@ -2964,6 +2964,12 @@ public class EsbSwitch<T> extends Switch<T> {
                 if (result == null) result = defaultCase(theEObject);
                 return result;
             }
+            case EsbPackage.CHILD_ENDPOINT: {
+                ChildEndpoint childEndpoint = (ChildEndpoint)theEObject;
+                T result = caseChildEndpoint(childEndpoint);
+                if (result == null) result = defaultCase(theEObject);
+                return result;
+            }
             default: return defaultCase(theEObject);
         }
     }
@@ -6085,6 +6091,21 @@ public class EsbSwitch<T> extends Switch<T> {
      * @generated
      */
     public T caseCommentMediator(CommentMediator object) {
+        return null;
+    }
+
+    /**
+     * Returns the result of interpreting the object as an instance of '<em>Child Endpoint</em>'.
+     * <!-- begin-user-doc -->
+     * This implementation returns null;
+     * returning a non-null result will terminate the switch.
+     * <!-- end-user-doc -->
+     * @param object the target of the switch.
+     * @return the result of interpreting the object as an instance of '<em>Child Endpoint</em>'.
+     * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+     * @generated
+     */
+    public T caseChildEndpoint(ChildEndpoint object) {
         return null;
     }
 

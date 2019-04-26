@@ -415,6 +415,7 @@ public class EsbFactoryImpl extends EFactoryImpl implements EsbFactory {
             case EsbPackage.INBOUND_ENDPOINT_ON_ERROR_SEQUENCE_OUTPUT_CONNECTOR: return createInboundEndpointOnErrorSequenceOutputConnector();
             case EsbPackage.INBOUND_ENDPOINT_ON_ERROR_SEQUENCE_INPUT_CONNECTOR: return createInboundEndpointOnErrorSequenceInputConnector();
             case EsbPackage.COMMENT_MEDIATOR: return createCommentMediator();
+            case EsbPackage.CHILD_ENDPOINT: return createChildEndpoint();
             default:
                 throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier");
         }
@@ -697,6 +698,8 @@ public class EsbFactoryImpl extends EFactoryImpl implements EsbFactory {
                 return createCacheImplementationTypeFromString(eDataType, initialValue);
             case EsbPackage.CACHE_MEDIATOR_TYPE:
                 return createCacheMediatorTypeFromString(eDataType, initialValue);
+            case EsbPackage.CHILD_ENDPOINT_TYPE:
+                return createChildEndpointTypeFromString(eDataType, initialValue);
             case EsbPackage.MAP:
                 return createMapFromString(eDataType, initialValue);
             default:
@@ -981,6 +984,8 @@ public class EsbFactoryImpl extends EFactoryImpl implements EsbFactory {
                 return convertCacheImplementationTypeToString(eDataType, instanceValue);
             case EsbPackage.CACHE_MEDIATOR_TYPE:
                 return convertCacheMediatorTypeToString(eDataType, instanceValue);
+            case EsbPackage.CHILD_ENDPOINT_TYPE:
+                return convertChildEndpointTypeToString(eDataType, instanceValue);
             case EsbPackage.MAP:
                 return convertMapToString(eDataType, instanceValue);
             default:
@@ -3150,6 +3155,16 @@ public class EsbFactoryImpl extends EFactoryImpl implements EsbFactory {
     public CommentMediator createCommentMediator() {
         CommentMediatorImpl commentMediator = new CommentMediatorImpl();
         return commentMediator;
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public ChildEndpoint createChildEndpoint() {
+        ChildEndpointImpl childEndpoint = new ChildEndpointImpl();
+        return childEndpoint;
     }
 
     /**
@@ -7578,6 +7593,26 @@ public class EsbFactoryImpl extends EFactoryImpl implements EsbFactory {
      * @generated
      */
     public String convertCacheMediatorTypeToString(EDataType eDataType, Object instanceValue) {
+        return instanceValue == null ? null : instanceValue.toString();
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public ChildEndpointType createChildEndpointTypeFromString(EDataType eDataType, String initialValue) {
+        ChildEndpointType result = ChildEndpointType.get(initialValue);
+        if (result == null) throw new IllegalArgumentException("The value '" + initialValue + "' is not a valid enumerator of '" + eDataType.getName() + "'");
+        return result;
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String convertChildEndpointTypeToString(EDataType eDataType, Object instanceValue) {
         return instanceValue == null ? null : instanceValue.toString();
     }
 

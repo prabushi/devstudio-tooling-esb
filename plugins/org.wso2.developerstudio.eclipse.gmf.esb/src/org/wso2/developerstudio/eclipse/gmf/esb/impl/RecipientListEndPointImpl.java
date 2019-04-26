@@ -30,6 +30,7 @@ import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.util.EObjectContainmentEList;
 import org.eclipse.emf.ecore.util.InternalEList;
 
+import org.wso2.developerstudio.eclipse.gmf.esb.ChildEndpoint;
 import org.wso2.developerstudio.eclipse.gmf.esb.EsbPackage;
 import org.wso2.developerstudio.eclipse.gmf.esb.MediatorFlow;
 import org.wso2.developerstudio.eclipse.gmf.esb.NamespacedProperty;
@@ -55,6 +56,7 @@ import org.wso2.developerstudio.eclipse.gmf.esb.RecipientListEndpointType;
  *   <li>{@link org.wso2.developerstudio.eclipse.gmf.esb.impl.RecipientListEndPointImpl#getEndpointsExpression <em>Endpoints Expression</em>}</li>
  *   <li>{@link org.wso2.developerstudio.eclipse.gmf.esb.impl.RecipientListEndPointImpl#getMaxCache <em>Max Cache</em>}</li>
  *   <li>{@link org.wso2.developerstudio.eclipse.gmf.esb.impl.RecipientListEndPointImpl#getMediatorFlow <em>Mediator Flow</em>}</li>
+ *   <li>{@link org.wso2.developerstudio.eclipse.gmf.esb.impl.RecipientListEndPointImpl#getEndpoint <em>Endpoint</em>}</li>
  * </ul>
  *
  * @generated
@@ -169,6 +171,16 @@ public class RecipientListEndPointImpl extends ParentEndPointImpl implements Rec
      * @ordered
      */
     protected MediatorFlow mediatorFlow;
+
+    /**
+     * The cached value of the '{@link #getEndpoint() <em>Endpoint</em>}' containment reference list.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #getEndpoint()
+     * @generated
+     * @ordered
+     */
+    protected EList<ChildEndpoint> endpoint;
 
     /**
      * <!-- begin-user-doc -->
@@ -450,6 +462,18 @@ public class RecipientListEndPointImpl extends ParentEndPointImpl implements Rec
      * <!-- end-user-doc -->
      * @generated
      */
+    public EList<ChildEndpoint> getEndpoint() {
+        if (endpoint == null) {
+            endpoint = new EObjectContainmentEList<ChildEndpoint>(ChildEndpoint.class, this, EsbPackage.RECIPIENT_LIST_END_POINT__ENDPOINT);
+        }
+        return endpoint;
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
     @Override
     public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
         switch (featureID) {
@@ -463,6 +487,8 @@ public class RecipientListEndPointImpl extends ParentEndPointImpl implements Rec
                 return basicSetEndpointsExpression(null, msgs);
             case EsbPackage.RECIPIENT_LIST_END_POINT__MEDIATOR_FLOW:
                 return basicSetMediatorFlow(null, msgs);
+            case EsbPackage.RECIPIENT_LIST_END_POINT__ENDPOINT:
+                return ((InternalEList<?>)getEndpoint()).basicRemove(otherEnd, msgs);
         }
         return super.eInverseRemove(otherEnd, featureID, msgs);
     }
@@ -491,6 +517,8 @@ public class RecipientListEndPointImpl extends ParentEndPointImpl implements Rec
                 return getMaxCache();
             case EsbPackage.RECIPIENT_LIST_END_POINT__MEDIATOR_FLOW:
                 return getMediatorFlow();
+            case EsbPackage.RECIPIENT_LIST_END_POINT__ENDPOINT:
+                return getEndpoint();
         }
         return super.eGet(featureID, resolve, coreType);
     }
@@ -529,6 +557,10 @@ public class RecipientListEndPointImpl extends ParentEndPointImpl implements Rec
             case EsbPackage.RECIPIENT_LIST_END_POINT__MEDIATOR_FLOW:
                 setMediatorFlow((MediatorFlow)newValue);
                 return;
+            case EsbPackage.RECIPIENT_LIST_END_POINT__ENDPOINT:
+                getEndpoint().clear();
+                getEndpoint().addAll((Collection<? extends ChildEndpoint>)newValue);
+                return;
         }
         super.eSet(featureID, newValue);
     }
@@ -565,6 +597,9 @@ public class RecipientListEndPointImpl extends ParentEndPointImpl implements Rec
             case EsbPackage.RECIPIENT_LIST_END_POINT__MEDIATOR_FLOW:
                 setMediatorFlow((MediatorFlow)null);
                 return;
+            case EsbPackage.RECIPIENT_LIST_END_POINT__ENDPOINT:
+                getEndpoint().clear();
+                return;
         }
         super.eUnset(featureID);
     }
@@ -593,6 +628,8 @@ public class RecipientListEndPointImpl extends ParentEndPointImpl implements Rec
                 return maxCache != MAX_CACHE_EDEFAULT;
             case EsbPackage.RECIPIENT_LIST_END_POINT__MEDIATOR_FLOW:
                 return mediatorFlow != null;
+            case EsbPackage.RECIPIENT_LIST_END_POINT__ENDPOINT:
+                return endpoint != null && !endpoint.isEmpty();
         }
         return super.eIsSet(featureID);
     }

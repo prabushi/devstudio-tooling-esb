@@ -22,6 +22,7 @@ import org.eclipse.emf.common.util.EList;
  *   <li>{@link org.wso2.developerstudio.eclipse.gmf.esb.FailoverEndPoint#getWestOutputConnector <em>West Output Connector</em>}</li>
  *   <li>{@link org.wso2.developerstudio.eclipse.gmf.esb.FailoverEndPoint#getMediatorFlow <em>Mediator Flow</em>}</li>
  *   <li>{@link org.wso2.developerstudio.eclipse.gmf.esb.FailoverEndPoint#isBuildMessage <em>Build Message</em>}</li>
+ *   <li>{@link org.wso2.developerstudio.eclipse.gmf.esb.FailoverEndPoint#getEndpoint <em>Endpoint</em>}</li>
  * </ul>
  *
  * @see org.wso2.developerstudio.eclipse.gmf.esb.EsbPackage#getFailoverEndPoint()
@@ -148,5 +149,21 @@ public interface FailoverEndPoint extends ParentEndPoint {
      * @generated
      */
     void setBuildMessage(boolean value);
+
+    /**
+     * Returns the value of the '<em><b>Endpoint</b></em>' containment reference list.
+     * The list contents are of type {@link org.wso2.developerstudio.eclipse.gmf.esb.ChildEndpoint}.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Endpoint</em>' containment reference list isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Endpoint</em>' containment reference list.
+     * @see org.wso2.developerstudio.eclipse.gmf.esb.EsbPackage#getFailoverEndPoint_Endpoint()
+     * @model containment="true" derived="true"
+     * @generated
+     */
+    EList<ChildEndpoint> getEndpoint();
 
 } // FailoverEndPoint

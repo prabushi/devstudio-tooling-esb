@@ -21,6 +21,7 @@ import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.util.EObjectContainmentEList;
 import org.eclipse.emf.ecore.util.InternalEList;
 
+import org.wso2.developerstudio.eclipse.gmf.esb.ChildEndpoint;
 import org.wso2.developerstudio.eclipse.gmf.esb.EsbPackage;
 import org.wso2.developerstudio.eclipse.gmf.esb.LoadBalanceAlgorithm;
 import org.wso2.developerstudio.eclipse.gmf.esb.LoadBalanceEndPoint;
@@ -51,6 +52,7 @@ import org.wso2.developerstudio.eclipse.gmf.esb.Session;
  *   <li>{@link org.wso2.developerstudio.eclipse.gmf.esb.impl.LoadBalanceEndPointImpl#getSessionTimeout <em>Session Timeout</em>}</li>
  *   <li>{@link org.wso2.developerstudio.eclipse.gmf.esb.impl.LoadBalanceEndPointImpl#getMediatorFlow <em>Mediator Flow</em>}</li>
  *   <li>{@link org.wso2.developerstudio.eclipse.gmf.esb.impl.LoadBalanceEndPointImpl#isBuildMessage <em>Build Message</em>}</li>
+ *   <li>{@link org.wso2.developerstudio.eclipse.gmf.esb.impl.LoadBalanceEndPointImpl#getEndpoints <em>Endpoints</em>}</li>
  * </ul>
  *
  * @generated
@@ -225,6 +227,16 @@ public class LoadBalanceEndPointImpl extends ParentEndPointImpl implements LoadB
      * @ordered
      */
     protected boolean buildMessage = BUILD_MESSAGE_EDEFAULT;
+
+    /**
+     * The cached value of the '{@link #getEndpoints() <em>Endpoints</em>}' containment reference list.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #getEndpoints()
+     * @generated
+     * @ordered
+     */
+    protected EList<ChildEndpoint> endpoints;
 
     /**
      * <!-- begin-user-doc -->
@@ -531,6 +543,18 @@ public class LoadBalanceEndPointImpl extends ParentEndPointImpl implements LoadB
      * <!-- end-user-doc -->
      * @generated
      */
+    public EList<ChildEndpoint> getEndpoints() {
+        if (endpoints == null) {
+            endpoints = new EObjectContainmentEList<ChildEndpoint>(ChildEndpoint.class, this, EsbPackage.LOAD_BALANCE_END_POINT__ENDPOINTS);
+        }
+        return endpoints;
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
     @Override
     public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
         switch (featureID) {
@@ -544,6 +568,8 @@ public class LoadBalanceEndPointImpl extends ParentEndPointImpl implements LoadB
                 return ((InternalEList<?>)getMember()).basicRemove(otherEnd, msgs);
             case EsbPackage.LOAD_BALANCE_END_POINT__MEDIATOR_FLOW:
                 return basicSetMediatorFlow(null, msgs);
+            case EsbPackage.LOAD_BALANCE_END_POINT__ENDPOINTS:
+                return ((InternalEList<?>)getEndpoints()).basicRemove(otherEnd, msgs);
         }
         return super.eInverseRemove(otherEnd, featureID, msgs);
     }
@@ -578,6 +604,8 @@ public class LoadBalanceEndPointImpl extends ParentEndPointImpl implements LoadB
                 return getMediatorFlow();
             case EsbPackage.LOAD_BALANCE_END_POINT__BUILD_MESSAGE:
                 return isBuildMessage();
+            case EsbPackage.LOAD_BALANCE_END_POINT__ENDPOINTS:
+                return getEndpoints();
         }
         return super.eGet(featureID, resolve, coreType);
     }
@@ -626,6 +654,10 @@ public class LoadBalanceEndPointImpl extends ParentEndPointImpl implements LoadB
             case EsbPackage.LOAD_BALANCE_END_POINT__BUILD_MESSAGE:
                 setBuildMessage((Boolean)newValue);
                 return;
+            case EsbPackage.LOAD_BALANCE_END_POINT__ENDPOINTS:
+                getEndpoints().clear();
+                getEndpoints().addAll((Collection<? extends ChildEndpoint>)newValue);
+                return;
         }
         super.eSet(featureID, newValue);
     }
@@ -671,6 +703,9 @@ public class LoadBalanceEndPointImpl extends ParentEndPointImpl implements LoadB
             case EsbPackage.LOAD_BALANCE_END_POINT__BUILD_MESSAGE:
                 setBuildMessage(BUILD_MESSAGE_EDEFAULT);
                 return;
+            case EsbPackage.LOAD_BALANCE_END_POINT__ENDPOINTS:
+                getEndpoints().clear();
+                return;
         }
         super.eUnset(featureID);
     }
@@ -705,6 +740,8 @@ public class LoadBalanceEndPointImpl extends ParentEndPointImpl implements LoadB
                 return mediatorFlow != null;
             case EsbPackage.LOAD_BALANCE_END_POINT__BUILD_MESSAGE:
                 return buildMessage != BUILD_MESSAGE_EDEFAULT;
+            case EsbPackage.LOAD_BALANCE_END_POINT__ENDPOINTS:
+                return endpoints != null && !endpoints.isEmpty();
         }
         return super.eIsSet(featureID);
     }

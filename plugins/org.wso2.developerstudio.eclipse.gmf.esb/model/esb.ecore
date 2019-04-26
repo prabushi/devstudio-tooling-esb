@@ -2333,6 +2333,8 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="mediatorFlow" eType="#//MediatorFlow"
         containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="buildMessage" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="endpoint" upperBound="-1"
+        eType="#//ChildEndpoint" derived="true" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="FailoverEndPointInputConnector" eSuperTypes="#//InputConnector"/>
   <eClassifiers xsi:type="ecore:EClass" name="FailoverEndPointOutputConnector" eSuperTypes="#//OutputConnector"/>
@@ -2378,6 +2380,8 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="mediatorFlow" eType="#//MediatorFlow"
         containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="buildMessage" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="endpoints" upperBound="-1"
+        eType="#//ChildEndpoint" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EEnum" name="LoadBalanceSessionType">
     <eLiterals name="NONE"/>
@@ -2690,6 +2694,8 @@
         defaultValueLiteral="20"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="mediatorFlow" eType="#//MediatorFlow"
         containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="endpoint" upperBound="-1"
+        eType="#//ChildEndpoint" derived="true" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="RecipientListEndPointInputConnector"
       eSuperTypes="#//InputConnector"/>
@@ -3492,5 +3498,16 @@
   <eClassifiers xsi:type="ecore:EEnum" name="CacheMediatorType">
     <eLiterals name="New_implementation"/>
     <eLiterals name="Previous_implementation" value="1"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ChildEndpoint">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="childEndpointType" eType="#//ChildEndpointType"
+        defaultValueLiteral="INLINE"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="inlineEndpoint" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="staticReference" eType="#//RegistryKeyProperty"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="ChildEndpointType">
+    <eLiterals name="INLINE"/>
+    <eLiterals name="STATIC" value="1"/>
   </eClassifiers>
 </ecore:EPackage>

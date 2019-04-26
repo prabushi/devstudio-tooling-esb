@@ -28,6 +28,7 @@ import org.eclipse.emf.common.util.EList;
  *   <li>{@link org.wso2.developerstudio.eclipse.gmf.esb.LoadBalanceEndPoint#getSessionTimeout <em>Session Timeout</em>}</li>
  *   <li>{@link org.wso2.developerstudio.eclipse.gmf.esb.LoadBalanceEndPoint#getMediatorFlow <em>Mediator Flow</em>}</li>
  *   <li>{@link org.wso2.developerstudio.eclipse.gmf.esb.LoadBalanceEndPoint#isBuildMessage <em>Build Message</em>}</li>
+ *   <li>{@link org.wso2.developerstudio.eclipse.gmf.esb.LoadBalanceEndPoint#getEndpoints <em>Endpoints</em>}</li>
  * </ul>
  *
  * @see org.wso2.developerstudio.eclipse.gmf.esb.EsbPackage#getLoadBalanceEndPoint()
@@ -306,5 +307,21 @@ public interface LoadBalanceEndPoint extends ParentEndPoint {
      * @generated
      */
     void setBuildMessage(boolean value);
+
+    /**
+     * Returns the value of the '<em><b>Endpoints</b></em>' containment reference list.
+     * The list contents are of type {@link org.wso2.developerstudio.eclipse.gmf.esb.ChildEndpoint}.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Endpoints</em>' containment reference list isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Endpoints</em>' containment reference list.
+     * @see org.wso2.developerstudio.eclipse.gmf.esb.EsbPackage#getLoadBalanceEndPoint_Endpoints()
+     * @model containment="true"
+     * @generated
+     */
+    EList<ChildEndpoint> getEndpoints();
 
 } // LoadBalanceEndPoint

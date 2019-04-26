@@ -1537,6 +1537,10 @@ public class EsbAdapterFactory extends AdapterFactoryImpl {
                 return createCommentMediatorAdapter();
             }
             @Override
+            public Adapter caseChildEndpoint(ChildEndpoint object) {
+                return createChildEndpointAdapter();
+            }
+            @Override
             public Adapter defaultCase(EObject object) {
                 return createEObjectAdapter();
             }
@@ -4465,6 +4469,20 @@ public class EsbAdapterFactory extends AdapterFactoryImpl {
      * @generated
      */
     public Adapter createCommentMediatorAdapter() {
+        return null;
+    }
+
+    /**
+     * Creates a new adapter for an object of class '{@link org.wso2.developerstudio.eclipse.gmf.esb.ChildEndpoint <em>Child Endpoint</em>}'.
+     * <!-- begin-user-doc -->
+     * This default implementation returns null so that we can easily ignore cases;
+     * it's useful to ignore a case when inheritance will catch all the cases anyway.
+     * <!-- end-user-doc -->
+     * @return the new adapter.
+     * @see org.wso2.developerstudio.eclipse.gmf.esb.ChildEndpoint
+     * @generated
+     */
+    public Adapter createChildEndpointAdapter() {
         return null;
     }
 
