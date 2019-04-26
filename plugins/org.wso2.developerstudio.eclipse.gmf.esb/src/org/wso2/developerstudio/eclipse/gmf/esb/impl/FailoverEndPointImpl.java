@@ -41,7 +41,7 @@ import org.wso2.developerstudio.eclipse.gmf.esb.MediatorFlow;
  *   <li>{@link org.wso2.developerstudio.eclipse.gmf.esb.impl.FailoverEndPointImpl#getWestOutputConnector <em>West Output Connector</em>}</li>
  *   <li>{@link org.wso2.developerstudio.eclipse.gmf.esb.impl.FailoverEndPointImpl#getMediatorFlow <em>Mediator Flow</em>}</li>
  *   <li>{@link org.wso2.developerstudio.eclipse.gmf.esb.impl.FailoverEndPointImpl#isBuildMessage <em>Build Message</em>}</li>
- *   <li>{@link org.wso2.developerstudio.eclipse.gmf.esb.impl.FailoverEndPointImpl#getEndpoint <em>Endpoint</em>}</li>
+ *   <li>{@link org.wso2.developerstudio.eclipse.gmf.esb.impl.FailoverEndPointImpl#getEndpoints <em>Endpoints</em>}</li>
  * </ul>
  *
  * @generated
@@ -108,14 +108,14 @@ public class FailoverEndPointImpl extends ParentEndPointImpl implements Failover
     protected boolean buildMessage = BUILD_MESSAGE_EDEFAULT;
 
     /**
-     * The cached value of the '{@link #getEndpoint() <em>Endpoint</em>}' containment reference list.
+     * The cached value of the '{@link #getEndpoints() <em>Endpoints</em>}' containment reference list.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getEndpoint()
+     * @see #getEndpoints()
      * @generated
      * @ordered
      */
-    protected EList<ChildEndpoint> endpoint;
+    protected EList<ChildEndpoint> endpoints;
 
     /**
      * <!-- begin-user-doc -->
@@ -305,11 +305,11 @@ public class FailoverEndPointImpl extends ParentEndPointImpl implements Failover
      * <!-- end-user-doc -->
      * @generated
      */
-    public EList<ChildEndpoint> getEndpoint() {
-        if (endpoint == null) {
-            endpoint = new EObjectContainmentEList<ChildEndpoint>(ChildEndpoint.class, this, EsbPackage.FAILOVER_END_POINT__ENDPOINT);
+    public EList<ChildEndpoint> getEndpoints() {
+        if (endpoints == null) {
+            endpoints = new EObjectContainmentEList<ChildEndpoint>(ChildEndpoint.class, this, EsbPackage.FAILOVER_END_POINT__ENDPOINTS);
         }
-        return endpoint;
+        return endpoints;
     }
 
     /**
@@ -328,8 +328,8 @@ public class FailoverEndPointImpl extends ParentEndPointImpl implements Failover
                 return basicSetWestOutputConnector(null, msgs);
             case EsbPackage.FAILOVER_END_POINT__MEDIATOR_FLOW:
                 return basicSetMediatorFlow(null, msgs);
-            case EsbPackage.FAILOVER_END_POINT__ENDPOINT:
-                return ((InternalEList<?>)getEndpoint()).basicRemove(otherEnd, msgs);
+            case EsbPackage.FAILOVER_END_POINT__ENDPOINTS:
+                return ((InternalEList<?>)getEndpoints()).basicRemove(otherEnd, msgs);
         }
         return super.eInverseRemove(otherEnd, featureID, msgs);
     }
@@ -352,8 +352,8 @@ public class FailoverEndPointImpl extends ParentEndPointImpl implements Failover
                 return getMediatorFlow();
             case EsbPackage.FAILOVER_END_POINT__BUILD_MESSAGE:
                 return isBuildMessage();
-            case EsbPackage.FAILOVER_END_POINT__ENDPOINT:
-                return getEndpoint();
+            case EsbPackage.FAILOVER_END_POINT__ENDPOINTS:
+                return getEndpoints();
         }
         return super.eGet(featureID, resolve, coreType);
     }
@@ -383,9 +383,9 @@ public class FailoverEndPointImpl extends ParentEndPointImpl implements Failover
             case EsbPackage.FAILOVER_END_POINT__BUILD_MESSAGE:
                 setBuildMessage((Boolean)newValue);
                 return;
-            case EsbPackage.FAILOVER_END_POINT__ENDPOINT:
-                getEndpoint().clear();
-                getEndpoint().addAll((Collection<? extends ChildEndpoint>)newValue);
+            case EsbPackage.FAILOVER_END_POINT__ENDPOINTS:
+                getEndpoints().clear();
+                getEndpoints().addAll((Collection<? extends ChildEndpoint>)newValue);
                 return;
         }
         super.eSet(featureID, newValue);
@@ -414,8 +414,8 @@ public class FailoverEndPointImpl extends ParentEndPointImpl implements Failover
             case EsbPackage.FAILOVER_END_POINT__BUILD_MESSAGE:
                 setBuildMessage(BUILD_MESSAGE_EDEFAULT);
                 return;
-            case EsbPackage.FAILOVER_END_POINT__ENDPOINT:
-                getEndpoint().clear();
+            case EsbPackage.FAILOVER_END_POINT__ENDPOINTS:
+                getEndpoints().clear();
                 return;
         }
         super.eUnset(featureID);
@@ -439,8 +439,8 @@ public class FailoverEndPointImpl extends ParentEndPointImpl implements Failover
                 return mediatorFlow != null;
             case EsbPackage.FAILOVER_END_POINT__BUILD_MESSAGE:
                 return buildMessage != BUILD_MESSAGE_EDEFAULT;
-            case EsbPackage.FAILOVER_END_POINT__ENDPOINT:
-                return endpoint != null && !endpoint.isEmpty();
+            case EsbPackage.FAILOVER_END_POINT__ENDPOINTS:
+                return endpoints != null && !endpoints.isEmpty();
         }
         return super.eIsSet(featureID);
     }

@@ -2006,7 +2006,7 @@
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference esb.ecore#//FailoverEndPoint/westOutputConnector"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference esb.ecore#//FailoverEndPoint/mediatorFlow"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute esb.ecore#//FailoverEndPoint/buildMessage"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference esb.ecore#//FailoverEndPoint/endpoint"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference esb.ecore#//FailoverEndPoint/endpoints"/>
     </genClasses>
     <genClasses ecoreClass="esb.ecore#//FailoverEndPointInputConnector"/>
     <genClasses ecoreClass="esb.ecore#//FailoverEndPointOutputConnector"/>
@@ -2234,7 +2234,7 @@
       <genFeatures children="true" createChild="true" ecoreFeature="ecore:EReference esb.ecore#//RecipientListEndPoint/endpointsExpression"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute esb.ecore#//RecipientListEndPoint/maxCache"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference esb.ecore#//RecipientListEndPoint/mediatorFlow"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference esb.ecore#//RecipientListEndPoint/endpoint"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference esb.ecore#//RecipientListEndPoint/endpoints"/>
     </genClasses>
     <genClasses ecoreClass="esb.ecore#//RecipientListEndPointInputConnector"/>
     <genClasses ecoreClass="esb.ecore#//RecipientListEndPointOutputConnector"/>

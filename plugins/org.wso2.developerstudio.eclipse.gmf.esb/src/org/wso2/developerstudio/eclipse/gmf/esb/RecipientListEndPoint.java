@@ -34,7 +34,7 @@ import org.eclipse.emf.common.util.EList;
  *   <li>{@link org.wso2.developerstudio.eclipse.gmf.esb.RecipientListEndPoint#getEndpointsExpression <em>Endpoints Expression</em>}</li>
  *   <li>{@link org.wso2.developerstudio.eclipse.gmf.esb.RecipientListEndPoint#getMaxCache <em>Max Cache</em>}</li>
  *   <li>{@link org.wso2.developerstudio.eclipse.gmf.esb.RecipientListEndPoint#getMediatorFlow <em>Mediator Flow</em>}</li>
- *   <li>{@link org.wso2.developerstudio.eclipse.gmf.esb.RecipientListEndPoint#getEndpoint <em>Endpoint</em>}</li>
+ *   <li>{@link org.wso2.developerstudio.eclipse.gmf.esb.RecipientListEndPoint#getEndpoints <em>Endpoints</em>}</li>
  * </ul>
  *
  * @see org.wso2.developerstudio.eclipse.gmf.esb.EsbPackage#getRecipientListEndPoint()
@@ -245,19 +245,19 @@ public interface RecipientListEndPoint extends ParentEndPoint {
     void setMediatorFlow(MediatorFlow value);
 
     /**
-     * Returns the value of the '<em><b>Endpoint</b></em>' containment reference list.
+     * Returns the value of the '<em><b>Endpoints</b></em>' containment reference list.
      * The list contents are of type {@link org.wso2.developerstudio.eclipse.gmf.esb.ChildEndpoint}.
      * <!-- begin-user-doc -->
      * <p>
-     * If the meaning of the '<em>Endpoint</em>' containment reference list isn't clear,
+     * If the meaning of the '<em>Endpoints</em>' containment reference list isn't clear,
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * @return the value of the '<em>Endpoint</em>' containment reference list.
-     * @see org.wso2.developerstudio.eclipse.gmf.esb.EsbPackage#getRecipientListEndPoint_Endpoint()
+     * @return the value of the '<em>Endpoints</em>' containment reference list.
+     * @see org.wso2.developerstudio.eclipse.gmf.esb.EsbPackage#getRecipientListEndPoint_Endpoints()
      * @model containment="true" derived="true"
      * @generated
      */
-    EList<ChildEndpoint> getEndpoint();
+    EList<ChildEndpoint> getEndpoints();
 
 } // RecipientListEndPoint

@@ -17791,13 +17791,13 @@ public interface EsbPackage extends EPackage {
     int FAILOVER_END_POINT__BUILD_MESSAGE = PARENT_END_POINT_FEATURE_COUNT + 4;
 
     /**
-     * The feature id for the '<em><b>Endpoint</b></em>' containment reference list.
+     * The feature id for the '<em><b>Endpoints</b></em>' containment reference list.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
      * @generated
      * @ordered
      */
-    int FAILOVER_END_POINT__ENDPOINT = PARENT_END_POINT_FEATURE_COUNT + 5;
+    int FAILOVER_END_POINT__ENDPOINTS = PARENT_END_POINT_FEATURE_COUNT + 5;
 
     /**
      * The number of structural features of the '<em>Failover End Point</em>' class.
@@ -22060,13 +22060,13 @@ public interface EsbPackage extends EPackage {
     int RECIPIENT_LIST_END_POINT__MEDIATOR_FLOW = PARENT_END_POINT_FEATURE_COUNT + 7;
 
     /**
-     * The feature id for the '<em><b>Endpoint</b></em>' containment reference list.
+     * The feature id for the '<em><b>Endpoints</b></em>' containment reference list.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
      * @generated
      * @ordered
      */
-    int RECIPIENT_LIST_END_POINT__ENDPOINT = PARENT_END_POINT_FEATURE_COUNT + 8;
+    int RECIPIENT_LIST_END_POINT__ENDPOINTS = PARENT_END_POINT_FEATURE_COUNT + 8;
 
     /**
      * The number of structural features of the '<em>Recipient List End Point</em>' class.
@@ -34011,15 +34011,15 @@ public interface EsbPackage extends EPackage {
     EReference getRecipientListEndPoint_MediatorFlow();
 
     /**
-     * Returns the meta object for the containment reference list '{@link org.wso2.developerstudio.eclipse.gmf.esb.RecipientListEndPoint#getEndpoint <em>Endpoint</em>}'.
+     * Returns the meta object for the containment reference list '{@link org.wso2.developerstudio.eclipse.gmf.esb.RecipientListEndPoint#getEndpoints <em>Endpoints</em>}'.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @return the meta object for the containment reference list '<em>Endpoint</em>'.
-     * @see org.wso2.developerstudio.eclipse.gmf.esb.RecipientListEndPoint#getEndpoint()
+     * @return the meta object for the containment reference list '<em>Endpoints</em>'.
+     * @see org.wso2.developerstudio.eclipse.gmf.esb.RecipientListEndPoint#getEndpoints()
      * @see #getRecipientListEndPoint()
      * @generated
      */
-    EReference getRecipientListEndPoint_Endpoint();
+    EReference getRecipientListEndPoint_Endpoints();
 
     /**
      * Returns the meta object for class '{@link org.wso2.developerstudio.eclipse.gmf.esb.RecipientListEndPointInputConnector <em>Recipient List End Point Input Connector</em>}'.
@@ -43751,15 +43751,15 @@ public interface EsbPackage extends EPackage {
     EAttribute getFailoverEndPoint_BuildMessage();
 
     /**
-     * Returns the meta object for the containment reference list '{@link org.wso2.developerstudio.eclipse.gmf.esb.FailoverEndPoint#getEndpoint <em>Endpoint</em>}'.
+     * Returns the meta object for the containment reference list '{@link org.wso2.developerstudio.eclipse.gmf.esb.FailoverEndPoint#getEndpoints <em>Endpoints</em>}'.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @return the meta object for the containment reference list '<em>Endpoint</em>'.
-     * @see org.wso2.developerstudio.eclipse.gmf.esb.FailoverEndPoint#getEndpoint()
+     * @return the meta object for the containment reference list '<em>Endpoints</em>'.
+     * @see org.wso2.developerstudio.eclipse.gmf.esb.FailoverEndPoint#getEndpoints()
      * @see #getFailoverEndPoint()
      * @generated
      */
-    EReference getFailoverEndPoint_Endpoint();
+    EReference getFailoverEndPoint_Endpoints();
 
     /**
      * Returns the meta object for class '{@link org.wso2.developerstudio.eclipse.gmf.esb.FailoverEndPointInputConnector <em>Failover End Point Input Connector</em>}'.
@@ -51171,12 +51171,12 @@ public interface EsbPackage extends EPackage {
         EReference RECIPIENT_LIST_END_POINT__MEDIATOR_FLOW = eINSTANCE.getRecipientListEndPoint_MediatorFlow();
 
         /**
-         * The meta object literal for the '<em><b>Endpoint</b></em>' containment reference list feature.
+         * The meta object literal for the '<em><b>Endpoints</b></em>' containment reference list feature.
          * <!-- begin-user-doc -->
          * <!-- end-user-doc -->
          * @generated
          */
-        EReference RECIPIENT_LIST_END_POINT__ENDPOINT = eINSTANCE.getRecipientListEndPoint_Endpoint();
+        EReference RECIPIENT_LIST_END_POINT__ENDPOINTS = eINSTANCE.getRecipientListEndPoint_Endpoints();
 
         /**
          * The meta object literal for the '{@link org.wso2.developerstudio.eclipse.gmf.esb.impl.RecipientListEndPointInputConnectorImpl <em>Recipient List End Point Input Connector</em>}' class.
@@ -58721,12 +58721,12 @@ public interface EsbPackage extends EPackage {
         EAttribute FAILOVER_END_POINT__BUILD_MESSAGE = eINSTANCE.getFailoverEndPoint_BuildMessage();
 
         /**
-         * The meta object literal for the '<em><b>Endpoint</b></em>' containment reference list feature.
+         * The meta object literal for the '<em><b>Endpoints</b></em>' containment reference list feature.
          * <!-- begin-user-doc -->
          * <!-- end-user-doc -->
          * @generated
          */
-        EReference FAILOVER_END_POINT__ENDPOINT = eINSTANCE.getFailoverEndPoint_Endpoint();
+        EReference FAILOVER_END_POINT__ENDPOINTS = eINSTANCE.getFailoverEndPoint_Endpoints();
 
         /**
          * The meta object literal for the '{@link org.wso2.developerstudio.eclipse.gmf.esb.impl.FailoverEndPointInputConnectorImpl <em>Failover End Point Input Connector</em>}' class.

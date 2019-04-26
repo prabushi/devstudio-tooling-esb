@@ -191,7 +191,7 @@ public class RecipientListEndPointItemProvider extends ParentEndPointItemProvide
             childrenFeatures.add(EsbPackage.Literals.RECIPIENT_LIST_END_POINT__WEST_OUTPUT_CONNECTOR);
             childrenFeatures.add(EsbPackage.Literals.RECIPIENT_LIST_END_POINT__ENDPOINTS_EXPRESSION);
             childrenFeatures.add(EsbPackage.Literals.RECIPIENT_LIST_END_POINT__MEDIATOR_FLOW);
-            childrenFeatures.add(EsbPackage.Literals.RECIPIENT_LIST_END_POINT__ENDPOINT);
+            childrenFeatures.add(EsbPackage.Literals.RECIPIENT_LIST_END_POINT__ENDPOINTS);
         }
         return childrenFeatures;
     }
@@ -256,7 +256,7 @@ public class RecipientListEndPointItemProvider extends ParentEndPointItemProvide
             case EsbPackage.RECIPIENT_LIST_END_POINT__WEST_OUTPUT_CONNECTOR:
             case EsbPackage.RECIPIENT_LIST_END_POINT__ENDPOINTS_EXPRESSION:
             case EsbPackage.RECIPIENT_LIST_END_POINT__MEDIATOR_FLOW:
-            case EsbPackage.RECIPIENT_LIST_END_POINT__ENDPOINT:
+            case EsbPackage.RECIPIENT_LIST_END_POINT__ENDPOINTS:
                 fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
                 return;
         }
@@ -301,7 +301,7 @@ public class RecipientListEndPointItemProvider extends ParentEndPointItemProvide
 
         newChildDescriptors.add
             (createChildParameter
-                (EsbPackage.Literals.RECIPIENT_LIST_END_POINT__ENDPOINT,
+                (EsbPackage.Literals.RECIPIENT_LIST_END_POINT__ENDPOINTS,
                  EsbFactory.eINSTANCE.createChildEndpoint()));
     }
 
