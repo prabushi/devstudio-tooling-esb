@@ -3690,6 +3690,9 @@
         <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_E7v9tfJnEei6boXzpRIfnA" name="buildMessage" views="_E7xJkfJnEei6boXzpRIfnA">
           <model xsi:type="ecore:EAttribute" href="platform:/resource/org.wso2.developerstudio.eclipse.gmf.esb/model/esb.ecore#//FailoverEndPoint/buildMessage"/>
         </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_8Mkz4GgkEemHjqXvvFiqvw" name="endpoints" views="_21ySMGggEemHjqXvvFiqvw">
+          <model xsi:type="ecore:EReference" href="platform:/resource/org.wso2.developerstudio.eclipse.gmf.esb/model/esb.ecore#//FailoverEndPoint/endpoints"/>
+        </properties>
         <model xsi:type="ecore:EClass" href="platform:/resource/org.wso2.developerstudio.eclipse.gmf.esb/model/esb.ecore#//FailoverEndPoint"/>
       </bindings>
       <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_E7v9tvJnEei6boXzpRIfnA" name="FailoverEndPointInputConnector" views="_E7xJkvJnEei6boXzpRIfnA">
@@ -3914,6 +3917,9 @@
         </properties>
         <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_E7v9-_JnEei6boXzpRIfnA" name="buildMessage" views="_E7xJ3_JnEei6boXzpRIfnA">
           <model xsi:type="ecore:EAttribute" href="platform:/resource/org.wso2.developerstudio.eclipse.gmf.esb/model/esb.ecore#//LoadBalanceEndPoint/buildMessage"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_SG5--2gaEemHjqXvvFiqvw" name="endpoints" views="_SG7OUmgaEemHjqXvvFiqvw">
+          <model xsi:type="ecore:EReference" href="platform:/resource/org.wso2.developerstudio.eclipse.gmf.esb/model/esb.ecore#//LoadBalanceEndPoint/endpoints"/>
         </properties>
         <model xsi:type="ecore:EClass" href="platform:/resource/org.wso2.developerstudio.eclipse.gmf.esb/model/esb.ecore#//LoadBalanceEndPoint"/>
       </bindings>
@@ -4763,6 +4769,9 @@
         </properties>
         <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_E7v_C_JnEei6boXzpRIfnA" name="maxCache" views="_E7xLHvJnEei6boXzpRIfnA">
           <model xsi:type="ecore:EAttribute" href="platform:/resource/org.wso2.developerstudio.eclipse.gmf.esb/model/esb.ecore#//RecipientListEndPoint/maxCache"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_GM63cGglEemHjqXvvFiqvw" name="endpoints" views="_KpQcsGghEemHjqXvvFiqvw">
+          <model xsi:type="ecore:EReference" href="platform:/resource/org.wso2.developerstudio.eclipse.gmf.esb/model/esb.ecore#//RecipientListEndPoint/endpoints"/>
         </properties>
         <model xsi:type="ecore:EClass" href="platform:/resource/org.wso2.developerstudio.eclipse.gmf.esb/model/esb.ecore#//RecipientListEndPoint"/>
       </bindings>
@@ -5881,6 +5890,18 @@
           <model xsi:type="ecore:EAttribute" href="platform:/resource/org.wso2.developerstudio.eclipse.gmf.esb/model/esb.ecore#//CommentMediator/commentText"/>
         </properties>
         <model xsi:type="ecore:EClass" href="platform:/resource/org.wso2.developerstudio.eclipse.gmf.esb/model/esb.ecore#//CommentMediator"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_SG6lZWgaEemHjqXvvFiqvw" name="ChildEndpoint" views="_SG71TmgaEemHjqXvvFiqvw">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_SG6lZmgaEemHjqXvvFiqvw" name="childEndpointType" views="_SG71UGgaEemHjqXvvFiqvw">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.wso2.developerstudio.eclipse.gmf.esb/model/esb.ecore#//ChildEndpoint/childEndpointType"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_SG6lZ2gaEemHjqXvvFiqvw" name="inlineEndpoint" views="_SG71UWgaEemHjqXvvFiqvw">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.wso2.developerstudio.eclipse.gmf.esb/model/esb.ecore#//ChildEndpoint/inlineEndpoint"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_SG6laGgaEemHjqXvvFiqvw" name="staticReference" views="_SG71UmgaEemHjqXvvFiqvw">
+          <model xsi:type="ecore:EReference" href="platform:/resource/org.wso2.developerstudio.eclipse.gmf.esb/model/esb.ecore#//ChildEndpoint/staticReference"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.wso2.developerstudio.eclipse.gmf.esb/model/esb.ecore#//ChildEndpoint"/>
       </bindings>
     </categories>
     <model href="platform:/resource/org.wso2.developerstudio.eclipse.gmf.esb/model/esb.genmodel#//esb"/>
@@ -10064,6 +10085,9 @@
           <elements xsi:type="eef-views:ElementEditor" xmi:id="_E7xJkfJnEei6boXzpRIfnA" name="buildMessage">
             <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.1"/>
           </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_21ySMGggEemHjqXvvFiqvw" name="endpoints">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.7"/>
+          </elements>
         </elements>
       </views>
       <views xmi:id="_E7xJkvJnEei6boXzpRIfnA" name="FailoverEndPointInputConnector">
@@ -10317,6 +10341,9 @@
           </elements>
           <elements xsi:type="eef-views:ElementEditor" xmi:id="_E7xJ3_JnEei6boXzpRIfnA" name="buildMessage">
             <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.1"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_SG7OUmgaEemHjqXvvFiqvw" name="endpoints">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.7"/>
           </elements>
         </elements>
       </views>
@@ -11256,6 +11283,9 @@
           </elements>
           <elements xsi:type="eef-views:ElementEditor" xmi:id="_E7xLHvJnEei6boXzpRIfnA" name="maxCache">
             <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_KpQcsGghEemHjqXvvFiqvw" name="endpoints">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.7"/>
           </elements>
         </elements>
       </views>
@@ -12434,6 +12464,20 @@
           </elements>
           <elements xsi:type="eef-views:ElementEditor" xmi:id="_E7xMrvJnEei6boXzpRIfnA" name="commentText">
             <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_SG71TmgaEemHjqXvvFiqvw" name="ChildEndpoint">
+        <elements xsi:type="eef-views:Container" xmi:id="_SG71T2gaEemHjqXvvFiqvw" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_SG71UGgaEemHjqXvvFiqvw" name="childEndpointType">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_SG71UWgaEemHjqXvvFiqvw" name="inlineEndpoint">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_SG71UmgaEemHjqXvvFiqvw" name="staticReference">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.0"/>
           </elements>
         </elements>
       </views>
