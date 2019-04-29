@@ -1,0 +1,165 @@
+
+Fri Apr 26 17:42:33 IST 2019
+================================================================================
+Start of user code for StaticReceivingSequence specific getters and setters
+	// implementation
+	@Override
+	public void setStaticReceivingSequence(RegistryKeyProperty registryKeyProperty) {
+		if (staticReceivingSequence != null) {
+			staticReceivingSequence = registryKeyProperty;
+			staticReceivingSequenceText.setText(registryKeyProperty.getKeyValue());
+		}
+	}
+
+	@Override
+	public RegistryKeyProperty getStaticReceivingSequence() {
+		return staticReceivingSequence;
+	}
+	// End of user code
+Start of user code for DynamicReceivingSequence specific getters and setters
+	// implementation
+	@Override
+	public void setDynamicReceivingSequence(NamespacedProperty namespacedProperty) {
+		if (namespacedProperty != null) {
+			dynamicReceivingSequence = namespacedProperty;
+			dynamicReceivingSequenceText.setText(namespacedProperty.getPropertyValue());
+		}
+	}
+
+	@Override
+	public NamespacedProperty getDynamicReceivingSequence() {
+		return dynamicReceivingSequence;
+	}
+	// End of user code
+
+Fri Apr 26 17:51:23 IST 2019
+================================================================================
+Start of user code for StaticReceivingSequence specific getters and setters
+	// implementation
+	@Override
+	public void setStaticReceivingSequence(RegistryKeyProperty registryKeyProperty) {
+		if (staticReceivingSequence != null) {
+			staticReceivingSequence = registryKeyProperty;
+			staticReceivingSequenceText.setText(registryKeyProperty.getKeyValue());
+		}
+	}
+
+	@Override
+	public RegistryKeyProperty getStaticReceivingSequence() {
+		return staticReceivingSequence;
+	}
+	// End of user code
+Start of user code for DynamicReceivingSequence specific getters and setters
+	// implementation
+	@Override
+	public void setDynamicReceivingSequence(NamespacedProperty namespacedProperty) {
+		if (namespacedProperty != null) {
+			dynamicReceivingSequence = namespacedProperty;
+			dynamicReceivingSequenceText.setText(namespacedProperty.getPropertyValue());
+		}
+	}
+
+	@Override
+	public NamespacedProperty getDynamicReceivingSequence() {
+		return dynamicReceivingSequence;
+	}
+	// End of user code
+
+Fri Apr 26 19:41:42 IST 2019
+================================================================================
+Start of user code for StaticReceivingSequence specific getters and setters
+	// implementation
+	@Override
+	public void setStaticReceivingSequence(RegistryKeyProperty registryKeyProperty) {
+		if (staticReceivingSequence != null) {
+			staticReceivingSequence = registryKeyProperty;
+			staticReceivingSequenceText.setText(registryKeyProperty.getKeyValue());
+		}
+	}
+
+	@Override
+	public RegistryKeyProperty getStaticReceivingSequence() {
+		return staticReceivingSequence;
+	}
+	// End of user code
+Start of user code for DynamicReceivingSequence specific getters and setters
+	// implementation
+	@Override
+	public void setDynamicReceivingSequence(NamespacedProperty namespacedProperty) {
+		if (namespacedProperty != null) {
+			dynamicReceivingSequence = namespacedProperty;
+			dynamicReceivingSequenceText.setText(namespacedProperty.getPropertyValue());
+		}
+	}
+
+	@Override
+	public NamespacedProperty getDynamicReceivingSequence() {
+		return dynamicReceivingSequence;
+	}
+	// End of user code
+
+Sat Apr 27 15:30:56 IST 2019
+================================================================================
+Start of user code for StaticReceivingSequence specific getters and setters
+	// implementation
+	@Override
+	public void setStaticReceivingSequence(RegistryKeyProperty registryKeyProperty) {
+		if (staticReceivingSequence != null) {
+			staticReceivingSequence = registryKeyProperty;
+			staticReceivingSequenceText.setText(registryKeyProperty.getKeyValue());
+		}
+	}
+
+	@Override
+	public RegistryKeyProperty getStaticReceivingSequence() {
+		return staticReceivingSequence;
+	}
+	// End of user code
+Start of user code for DynamicReceivingSequence specific getters and setters
+	// implementation
+	@Override
+	public void setDynamicReceivingSequence(NamespacedProperty namespacedProperty) {
+		if (namespacedProperty != null) {
+			dynamicReceivingSequence = namespacedProperty;
+			dynamicReceivingSequenceText.setText(namespacedProperty.getPropertyValue());
+		}
+	}
+
+	@Override
+	public NamespacedProperty getDynamicReceivingSequence() {
+		return dynamicReceivingSequence;
+	}
+	// End of user code
+
+Mon Apr 29 15:22:28 IST 2019
+================================================================================
+Start of user code for StaticReceivingSequence specific getters and setters
+	// implementation
+	@Override
+	public void setStaticReceivingSequence(RegistryKeyProperty registryKeyProperty) {
+		if (staticReceivingSequence != null) {
+			staticReceivingSequence = registryKeyProperty;
+			staticReceivingSequenceText.setText(registryKeyProperty.getKeyValue());
+		}
+	}
+
+	@Override
+	public RegistryKeyProperty getStaticReceivingSequence() {
+		return staticReceivingSequence;
+	}
+	// End of user code
+Start of user code for DynamicReceivingSequence specific getters and setters
+	// implementation
+	@Override
+	public void setDynamicReceivingSequence(NamespacedProperty namespacedProperty) {
+		if (namespacedProperty != null) {
+			dynamicReceivingSequence = namespacedProperty;
+			dynamicReceivingSequenceText.setText(namespacedProperty.getPropertyValue());
+		}
+	}
+
+	@Override
+	public NamespacedProperty getDynamicReceivingSequence() {
+		return dynamicReceivingSequence;
+	}
+	// End of user code

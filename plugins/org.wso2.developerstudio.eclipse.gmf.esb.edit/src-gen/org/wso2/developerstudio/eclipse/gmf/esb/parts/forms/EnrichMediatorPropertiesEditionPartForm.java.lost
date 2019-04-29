@@ -1,0 +1,130 @@
+
+Fri Apr 26 17:42:26 IST 2019
+================================================================================
+Start of user code
+        CompositionSequence enrichMediatorStep = new BindingCompositionSequence(propertiesEditionComponent);
+
+        CompositionStep sourceStep = enrichMediatorStep.addStep(EsbViewsRepository.EnrichMediator.Source.class);
+        sourceStep.addStep(EsbViewsRepository.EnrichMediator.Source.cloneSource);
+        sourceStep.addStep(EsbViewsRepository.EnrichMediator.Source.sourceType);
+        sourceStep.addStep(EsbViewsRepository.EnrichMediator.Source.inlineType);
+        sourceStep.addStep(EsbViewsRepository.EnrichMediator.Source.sourceXML);
+        sourceStep.addStep(EsbViewsRepository.EnrichMediator.Source.sourceProperty);
+        sourceStep.addStep(EsbViewsRepository.EnrichMediator.Source.sourceXPath);
+        sourceStep.addStep(EsbViewsRepository.EnrichMediator.Source.inlineRegistryKey);
+
+        CompositionStep targetStep = enrichMediatorStep.addStep(EsbViewsRepository.EnrichMediator.Target.class);
+        targetStep.addStep(EsbViewsRepository.EnrichMediator.Target.targetAction);
+        targetStep.addStep(EsbViewsRepository.EnrichMediator.Target.targetType);
+        targetStep.addStep(EsbViewsRepository.EnrichMediator.Target.targetProperty);
+        targetStep.addStep(EsbViewsRepository.EnrichMediator.Target.targetXPath);
+        
+        CompositionStep miscStep = enrichMediatorStep.addStep(EsbViewsRepository.EnrichMediator.Misc.class);
+        miscStep.addStep(EsbViewsRepository.EnrichMediator.Misc.description);
+        miscStep.addStep(EsbViewsRepository.EnrichMediator.Misc.commentsList);
+        miscStep.addStep(EsbViewsRepository.EnrichMediator.Misc.reverse);
+        // End of user code
+
+Fri Apr 26 17:51:17 IST 2019
+================================================================================
+Start of user code
+        CompositionSequence enrichMediatorStep = new BindingCompositionSequence(propertiesEditionComponent);
+
+        CompositionStep sourceStep = enrichMediatorStep.addStep(EsbViewsRepository.EnrichMediator.Source.class);
+        sourceStep.addStep(EsbViewsRepository.EnrichMediator.Source.cloneSource);
+        sourceStep.addStep(EsbViewsRepository.EnrichMediator.Source.sourceType);
+        sourceStep.addStep(EsbViewsRepository.EnrichMediator.Source.inlineType);
+        sourceStep.addStep(EsbViewsRepository.EnrichMediator.Source.sourceXML);
+        sourceStep.addStep(EsbViewsRepository.EnrichMediator.Source.sourceProperty);
+        sourceStep.addStep(EsbViewsRepository.EnrichMediator.Source.sourceXPath);
+        sourceStep.addStep(EsbViewsRepository.EnrichMediator.Source.inlineRegistryKey);
+
+        CompositionStep targetStep = enrichMediatorStep.addStep(EsbViewsRepository.EnrichMediator.Target.class);
+        targetStep.addStep(EsbViewsRepository.EnrichMediator.Target.targetAction);
+        targetStep.addStep(EsbViewsRepository.EnrichMediator.Target.targetType);
+        targetStep.addStep(EsbViewsRepository.EnrichMediator.Target.targetProperty);
+        targetStep.addStep(EsbViewsRepository.EnrichMediator.Target.targetXPath);
+        
+        CompositionStep miscStep = enrichMediatorStep.addStep(EsbViewsRepository.EnrichMediator.Misc.class);
+        miscStep.addStep(EsbViewsRepository.EnrichMediator.Misc.description);
+        miscStep.addStep(EsbViewsRepository.EnrichMediator.Misc.commentsList);
+        miscStep.addStep(EsbViewsRepository.EnrichMediator.Misc.reverse);
+        // End of user code
+
+Fri Apr 26 19:41:37 IST 2019
+================================================================================
+Start of user code
+        CompositionSequence enrichMediatorStep = new BindingCompositionSequence(propertiesEditionComponent);
+
+        CompositionStep sourceStep = enrichMediatorStep.addStep(EsbViewsRepository.EnrichMediator.Source.class);
+        sourceStep.addStep(EsbViewsRepository.EnrichMediator.Source.cloneSource);
+        sourceStep.addStep(EsbViewsRepository.EnrichMediator.Source.sourceType);
+        sourceStep.addStep(EsbViewsRepository.EnrichMediator.Source.inlineType);
+        sourceStep.addStep(EsbViewsRepository.EnrichMediator.Source.sourceXML);
+        sourceStep.addStep(EsbViewsRepository.EnrichMediator.Source.sourceProperty);
+        sourceStep.addStep(EsbViewsRepository.EnrichMediator.Source.sourceXPath);
+        sourceStep.addStep(EsbViewsRepository.EnrichMediator.Source.inlineRegistryKey);
+
+        CompositionStep targetStep = enrichMediatorStep.addStep(EsbViewsRepository.EnrichMediator.Target.class);
+        targetStep.addStep(EsbViewsRepository.EnrichMediator.Target.targetAction);
+        targetStep.addStep(EsbViewsRepository.EnrichMediator.Target.targetType);
+        targetStep.addStep(EsbViewsRepository.EnrichMediator.Target.targetProperty);
+        targetStep.addStep(EsbViewsRepository.EnrichMediator.Target.targetXPath);
+        
+        CompositionStep miscStep = enrichMediatorStep.addStep(EsbViewsRepository.EnrichMediator.Misc.class);
+        miscStep.addStep(EsbViewsRepository.EnrichMediator.Misc.description);
+        miscStep.addStep(EsbViewsRepository.EnrichMediator.Misc.commentsList);
+        miscStep.addStep(EsbViewsRepository.EnrichMediator.Misc.reverse);
+        // End of user code
+
+Sat Apr 27 15:30:51 IST 2019
+================================================================================
+Start of user code
+        CompositionSequence enrichMediatorStep = new BindingCompositionSequence(propertiesEditionComponent);
+
+        CompositionStep sourceStep = enrichMediatorStep.addStep(EsbViewsRepository.EnrichMediator.Source.class);
+        sourceStep.addStep(EsbViewsRepository.EnrichMediator.Source.cloneSource);
+        sourceStep.addStep(EsbViewsRepository.EnrichMediator.Source.sourceType);
+        sourceStep.addStep(EsbViewsRepository.EnrichMediator.Source.inlineType);
+        sourceStep.addStep(EsbViewsRepository.EnrichMediator.Source.sourceXML);
+        sourceStep.addStep(EsbViewsRepository.EnrichMediator.Source.sourceProperty);
+        sourceStep.addStep(EsbViewsRepository.EnrichMediator.Source.sourceXPath);
+        sourceStep.addStep(EsbViewsRepository.EnrichMediator.Source.inlineRegistryKey);
+
+        CompositionStep targetStep = enrichMediatorStep.addStep(EsbViewsRepository.EnrichMediator.Target.class);
+        targetStep.addStep(EsbViewsRepository.EnrichMediator.Target.targetAction);
+        targetStep.addStep(EsbViewsRepository.EnrichMediator.Target.targetType);
+        targetStep.addStep(EsbViewsRepository.EnrichMediator.Target.targetProperty);
+        targetStep.addStep(EsbViewsRepository.EnrichMediator.Target.targetXPath);
+        
+        CompositionStep miscStep = enrichMediatorStep.addStep(EsbViewsRepository.EnrichMediator.Misc.class);
+        miscStep.addStep(EsbViewsRepository.EnrichMediator.Misc.description);
+        miscStep.addStep(EsbViewsRepository.EnrichMediator.Misc.commentsList);
+        miscStep.addStep(EsbViewsRepository.EnrichMediator.Misc.reverse);
+        // End of user code
+
+Mon Apr 29 15:22:23 IST 2019
+================================================================================
+Start of user code
+        CompositionSequence enrichMediatorStep = new BindingCompositionSequence(propertiesEditionComponent);
+
+        CompositionStep sourceStep = enrichMediatorStep.addStep(EsbViewsRepository.EnrichMediator.Source.class);
+        sourceStep.addStep(EsbViewsRepository.EnrichMediator.Source.cloneSource);
+        sourceStep.addStep(EsbViewsRepository.EnrichMediator.Source.sourceType);
+        sourceStep.addStep(EsbViewsRepository.EnrichMediator.Source.inlineType);
+        sourceStep.addStep(EsbViewsRepository.EnrichMediator.Source.sourceXML);
+        sourceStep.addStep(EsbViewsRepository.EnrichMediator.Source.sourceProperty);
+        sourceStep.addStep(EsbViewsRepository.EnrichMediator.Source.sourceXPath);
+        sourceStep.addStep(EsbViewsRepository.EnrichMediator.Source.inlineRegistryKey);
+
+        CompositionStep targetStep = enrichMediatorStep.addStep(EsbViewsRepository.EnrichMediator.Target.class);
+        targetStep.addStep(EsbViewsRepository.EnrichMediator.Target.targetAction);
+        targetStep.addStep(EsbViewsRepository.EnrichMediator.Target.targetType);
+        targetStep.addStep(EsbViewsRepository.EnrichMediator.Target.targetProperty);
+        targetStep.addStep(EsbViewsRepository.EnrichMediator.Target.targetXPath);
+        
+        CompositionStep miscStep = enrichMediatorStep.addStep(EsbViewsRepository.EnrichMediator.Misc.class);
+        miscStep.addStep(EsbViewsRepository.EnrichMediator.Misc.description);
+        miscStep.addStep(EsbViewsRepository.EnrichMediator.Misc.commentsList);
+        miscStep.addStep(EsbViewsRepository.EnrichMediator.Misc.reverse);
+        // End of user code

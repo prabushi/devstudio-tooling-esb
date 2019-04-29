@@ -1,0 +1,220 @@
+
+Fri Apr 26 17:42:31 IST 2019
+================================================================================
+Start of user code for createDependencyProviderEMFComboViewer
+        connectionDbConfiguration = new Control[] { propertyInitializeLabel, dependencyProvider,
+                propertyInitializeHelp };
+        // End of user code
+Start of user code for additional methods
+	protected Composite connectionGroup;
+	protected Composite statementsGroup;
+	protected Composite propertiesGroup;
+	protected Composite miscGroup;
+	
+	protected Section propertiesSection;
+	
+	protected Control[] connectionTypeElements;
+	protected Control[] connectionDsTypeElements;
+	protected Control[] connectionDbTypeElements;
+	protected Control[] connectionDbDriverElements;
+	protected Control[] connectionDsInitialContextElements;
+	protected Control[] connectionDsNameElements;
+	protected Control[] connectionURLElements;
+	protected Control[] connectionUsernameElements;
+	protected Control[] connectionPasswordElements;
+	protected Control[] connectionUserTransactionElements;
+	protected Control[] propertyAutoCommitElements;
+	protected Control[] propertyIsolationElements;
+	protected Control[] descriptionElements;
+	protected Control[] propertyInitialSizeElements;
+	protected Control[] propertyValidationQueryElements;
+	protected Control[] propertyTestWhileIdelElements;
+	protected Control[] propertyTestOnBorrowElements;
+	protected Control[] propertyPoolstatementsElements;
+	protected Control[] propertyMinIdelElements;
+	protected Control[] propertyMaxWaitElements;
+	protected Control[] propertyMaxOpenStatementsElements;
+	protected Control[] propertyMaxIdleElements;
+	protected Control[] propertyMaxActiveElements;
+	protected Control[] connectionDbConfiguration;
+	
+	String jarPath = "";
+
+	DependencyProvider dp;
+	// End of user code
+
+Fri Apr 26 17:51:21 IST 2019
+================================================================================
+Start of user code for createDependencyProviderEMFComboViewer
+        connectionDbConfiguration = new Control[] { propertyInitializeLabel, dependencyProvider,
+                propertyInitializeHelp };
+        // End of user code
+Start of user code for additional methods
+	protected Composite connectionGroup;
+	protected Composite statementsGroup;
+	protected Composite propertiesGroup;
+	protected Composite miscGroup;
+	
+	protected Section propertiesSection;
+	
+	protected Control[] connectionTypeElements;
+	protected Control[] connectionDsTypeElements;
+	protected Control[] connectionDbTypeElements;
+	protected Control[] connectionDbDriverElements;
+	protected Control[] connectionDsInitialContextElements;
+	protected Control[] connectionDsNameElements;
+	protected Control[] connectionURLElements;
+	protected Control[] connectionUsernameElements;
+	protected Control[] connectionPasswordElements;
+	protected Control[] connectionUserTransactionElements;
+	protected Control[] propertyAutoCommitElements;
+	protected Control[] propertyIsolationElements;
+	protected Control[] descriptionElements;
+	protected Control[] propertyInitialSizeElements;
+	protected Control[] propertyValidationQueryElements;
+	protected Control[] propertyTestWhileIdelElements;
+	protected Control[] propertyTestOnBorrowElements;
+	protected Control[] propertyPoolstatementsElements;
+	protected Control[] propertyMinIdelElements;
+	protected Control[] propertyMaxWaitElements;
+	protected Control[] propertyMaxOpenStatementsElements;
+	protected Control[] propertyMaxIdleElements;
+	protected Control[] propertyMaxActiveElements;
+	protected Control[] connectionDbConfiguration;
+	
+	String jarPath = "";
+
+	DependencyProvider dp;
+	// End of user code
+
+Fri Apr 26 19:41:41 IST 2019
+================================================================================
+Start of user code for createDependencyProviderEMFComboViewer
+        connectionDbConfiguration = new Control[] { propertyInitializeLabel, dependencyProvider,
+                propertyInitializeHelp };
+        // End of user code
+Start of user code for additional methods
+	protected Composite connectionGroup;
+	protected Composite statementsGroup;
+	protected Composite propertiesGroup;
+	protected Composite miscGroup;
+	
+	protected Section propertiesSection;
+	
+	protected Control[] connectionTypeElements;
+	protected Control[] connectionDsTypeElements;
+	protected Control[] connectionDbTypeElements;
+	protected Control[] connectionDbDriverElements;
+	protected Control[] connectionDsInitialContextElements;
+	protected Control[] connectionDsNameElements;
+	protected Control[] connectionURLElements;
+	protected Control[] connectionUsernameElements;
+	protected Control[] connectionPasswordElements;
+	protected Control[] connectionUserTransactionElements;
+	protected Control[] propertyAutoCommitElements;
+	protected Control[] propertyIsolationElements;
+	protected Control[] descriptionElements;
+	protected Control[] propertyInitialSizeElements;
+	protected Control[] propertyValidationQueryElements;
+	protected Control[] propertyTestWhileIdelElements;
+	protected Control[] propertyTestOnBorrowElements;
+	protected Control[] propertyPoolstatementsElements;
+	protected Control[] propertyMinIdelElements;
+	protected Control[] propertyMaxWaitElements;
+	protected Control[] propertyMaxOpenStatementsElements;
+	protected Control[] propertyMaxIdleElements;
+	protected Control[] propertyMaxActiveElements;
+	protected Control[] connectionDbConfiguration;
+	
+	String jarPath = "";
+
+	DependencyProvider dp;
+	// End of user code
+
+Sat Apr 27 15:30:55 IST 2019
+================================================================================
+Start of user code for createDependencyProviderEMFComboViewer
+        connectionDbConfiguration = new Control[] { propertyInitializeLabel, dependencyProvider,
+                propertyInitializeHelp };
+        // End of user code
+Start of user code for additional methods
+	protected Composite connectionGroup;
+	protected Composite statementsGroup;
+	protected Composite propertiesGroup;
+	protected Composite miscGroup;
+	
+	protected Section propertiesSection;
+	
+	protected Control[] connectionTypeElements;
+	protected Control[] connectionDsTypeElements;
+	protected Control[] connectionDbTypeElements;
+	protected Control[] connectionDbDriverElements;
+	protected Control[] connectionDsInitialContextElements;
+	protected Control[] connectionDsNameElements;
+	protected Control[] connectionURLElements;
+	protected Control[] connectionUsernameElements;
+	protected Control[] connectionPasswordElements;
+	protected Control[] connectionUserTransactionElements;
+	protected Control[] propertyAutoCommitElements;
+	protected Control[] propertyIsolationElements;
+	protected Control[] descriptionElements;
+	protected Control[] propertyInitialSizeElements;
+	protected Control[] propertyValidationQueryElements;
+	protected Control[] propertyTestWhileIdelElements;
+	protected Control[] propertyTestOnBorrowElements;
+	protected Control[] propertyPoolstatementsElements;
+	protected Control[] propertyMinIdelElements;
+	protected Control[] propertyMaxWaitElements;
+	protected Control[] propertyMaxOpenStatementsElements;
+	protected Control[] propertyMaxIdleElements;
+	protected Control[] propertyMaxActiveElements;
+	protected Control[] connectionDbConfiguration;
+	
+	String jarPath = "";
+
+	DependencyProvider dp;
+	// End of user code
+
+Mon Apr 29 15:22:27 IST 2019
+================================================================================
+Start of user code for createDependencyProviderEMFComboViewer
+        connectionDbConfiguration = new Control[] { propertyInitializeLabel, dependencyProvider,
+                propertyInitializeHelp };
+        // End of user code
+Start of user code for additional methods
+	protected Composite connectionGroup;
+	protected Composite statementsGroup;
+	protected Composite propertiesGroup;
+	protected Composite miscGroup;
+	
+	protected Section propertiesSection;
+	
+	protected Control[] connectionTypeElements;
+	protected Control[] connectionDsTypeElements;
+	protected Control[] connectionDbTypeElements;
+	protected Control[] connectionDbDriverElements;
+	protected Control[] connectionDsInitialContextElements;
+	protected Control[] connectionDsNameElements;
+	protected Control[] connectionURLElements;
+	protected Control[] connectionUsernameElements;
+	protected Control[] connectionPasswordElements;
+	protected Control[] connectionUserTransactionElements;
+	protected Control[] propertyAutoCommitElements;
+	protected Control[] propertyIsolationElements;
+	protected Control[] descriptionElements;
+	protected Control[] propertyInitialSizeElements;
+	protected Control[] propertyValidationQueryElements;
+	protected Control[] propertyTestWhileIdelElements;
+	protected Control[] propertyTestOnBorrowElements;
+	protected Control[] propertyPoolstatementsElements;
+	protected Control[] propertyMinIdelElements;
+	protected Control[] propertyMaxWaitElements;
+	protected Control[] propertyMaxOpenStatementsElements;
+	protected Control[] propertyMaxIdleElements;
+	protected Control[] propertyMaxActiveElements;
+	protected Control[] connectionDbConfiguration;
+	
+	String jarPath = "";
+
+	DependencyProvider dp;
+	// End of user code

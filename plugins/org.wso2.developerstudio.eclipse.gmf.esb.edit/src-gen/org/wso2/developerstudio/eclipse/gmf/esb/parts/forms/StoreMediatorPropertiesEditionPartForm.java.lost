@@ -1,0 +1,120 @@
+
+Fri Apr 26 17:42:32 IST 2019
+================================================================================
+Start of user code
+	protected Text description;
+	protected Text commentsList;
+	protected Button editCommentsList;
+	protected EList commentsListList;
+	protected Button reverse;
+	protected Text messageStore;
+	protected EMFComboViewer availableMessageStores;
+	protected EMFComboViewer specifyAs;
+	
+	protected static String MESSAGE_STORE_DEFAULT_VALUE = "Select From Message Stores";
+    protected NamespacedProperty expression;
+    protected RegistryKeyProperty sequenceKey;
+    protected Composite propertiesGroup;
+    protected Control[] specifyAsElements;
+    protected Control[] availableMessageStoreElements;
+    protected Control[] messageStoreElements;
+    protected Control[] descriptionElements;
+    protected Composite messageStoreSubsection;
+
+	// End of user code
+
+Fri Apr 26 17:51:22 IST 2019
+================================================================================
+Start of user code
+	protected Text description;
+	protected Text commentsList;
+	protected Button editCommentsList;
+	protected EList commentsListList;
+	protected Button reverse;
+	protected Text messageStore;
+	protected EMFComboViewer availableMessageStores;
+	protected EMFComboViewer specifyAs;
+	
+	protected static String MESSAGE_STORE_DEFAULT_VALUE = "Select From Message Stores";
+    protected NamespacedProperty expression;
+    protected RegistryKeyProperty sequenceKey;
+    protected Composite propertiesGroup;
+    protected Control[] specifyAsElements;
+    protected Control[] availableMessageStoreElements;
+    protected Control[] messageStoreElements;
+    protected Control[] descriptionElements;
+    protected Composite messageStoreSubsection;
+
+	// End of user code
+
+Fri Apr 26 19:41:42 IST 2019
+================================================================================
+Start of user code
+	protected Text description;
+	protected Text commentsList;
+	protected Button editCommentsList;
+	protected EList commentsListList;
+	protected Button reverse;
+	protected Text messageStore;
+	protected EMFComboViewer availableMessageStores;
+	protected EMFComboViewer specifyAs;
+	
+	protected static String MESSAGE_STORE_DEFAULT_VALUE = "Select From Message Stores";
+    protected NamespacedProperty expression;
+    protected RegistryKeyProperty sequenceKey;
+    protected Composite propertiesGroup;
+    protected Control[] specifyAsElements;
+    protected Control[] availableMessageStoreElements;
+    protected Control[] messageStoreElements;
+    protected Control[] descriptionElements;
+    protected Composite messageStoreSubsection;
+
+	// End of user code
+
+Sat Apr 27 15:30:56 IST 2019
+================================================================================
+Start of user code
+	protected Text description;
+	protected Text commentsList;
+	protected Button editCommentsList;
+	protected EList commentsListList;
+	protected Button reverse;
+	protected Text messageStore;
+	protected EMFComboViewer availableMessageStores;
+	protected EMFComboViewer specifyAs;
+	
+	protected static String MESSAGE_STORE_DEFAULT_VALUE = "Select From Message Stores";
+    protected NamespacedProperty expression;
+    protected RegistryKeyProperty sequenceKey;
+    protected Composite propertiesGroup;
+    protected Control[] specifyAsElements;
+    protected Control[] availableMessageStoreElements;
+    protected Control[] messageStoreElements;
+    protected Control[] descriptionElements;
+    protected Composite messageStoreSubsection;
+
+	// End of user code
+
+Mon Apr 29 15:22:28 IST 2019
+================================================================================
+Start of user code
+	protected Text description;
+	protected Text commentsList;
+	protected Button editCommentsList;
+	protected EList commentsListList;
+	protected Button reverse;
+	protected Text messageStore;
+	protected EMFComboViewer availableMessageStores;
+	protected EMFComboViewer specifyAs;
+	
+	protected static String MESSAGE_STORE_DEFAULT_VALUE = "Select From Message Stores";
+    protected NamespacedProperty expression;
+    protected RegistryKeyProperty sequenceKey;
+    protected Composite propertiesGroup;
+    protected Control[] specifyAsElements;
+    protected Control[] availableMessageStoreElements;
+    protected Control[] messageStoreElements;
+    protected Control[] descriptionElements;
+    protected Composite messageStoreSubsection;
+
+	// End of user code

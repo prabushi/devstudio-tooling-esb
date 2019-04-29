@@ -1,0 +1,235 @@
+
+Fri Apr 26 17:42:26 IST 2019
+================================================================================
+Start of user code for addToPart creation
+				if (key == EsbViewsRepository.BeanMediator.Properties.class) {
+					return createPropertiesGroup(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.description) {
+					return createDescriptionText(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.commentsList) {
+					return createCommentsListMultiValuedEditor(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.reverse) {
+					return createReverseCheckbox(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.class_) {
+					return createClass_Text(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.action) {
+					return createActionEMFComboViewer(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.var) {
+					return createVarText(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.property) {
+					return createPropertyText(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.valueType) {
+					return createValueTypeEMFComboViewer(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.valueLiteral) {
+					return createValueLiteralText(widgetFactory, filterValueSubPropertiesGroup);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.targetType) {
+					return createTargetTypeEMFComboViewer(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.targetLiteral) {
+					return createTargetLiteralText(widgetFactory, filterTargetSubPropertiesGroup);
+				}
+                if(key == EsbViewsRepository.BeanMediator.Properties.targetExpression) {
+                    return createTargetExpressionWidget(widgetFactory, filterTargetSubPropertiesGroup);
+                }
+                if(key == EsbViewsRepository.BeanMediator.Properties.valueExpression) {
+                    return createValueExpressionWidget(widgetFactory, filterValueSubPropertiesGroup);
+                }
+				// End of user code
+
+Fri Apr 26 17:51:17 IST 2019
+================================================================================
+Start of user code for addToPart creation
+				if (key == EsbViewsRepository.BeanMediator.Properties.class) {
+					return createPropertiesGroup(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.description) {
+					return createDescriptionText(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.commentsList) {
+					return createCommentsListMultiValuedEditor(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.reverse) {
+					return createReverseCheckbox(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.class_) {
+					return createClass_Text(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.action) {
+					return createActionEMFComboViewer(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.var) {
+					return createVarText(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.property) {
+					return createPropertyText(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.valueType) {
+					return createValueTypeEMFComboViewer(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.valueLiteral) {
+					return createValueLiteralText(widgetFactory, filterValueSubPropertiesGroup);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.targetType) {
+					return createTargetTypeEMFComboViewer(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.targetLiteral) {
+					return createTargetLiteralText(widgetFactory, filterTargetSubPropertiesGroup);
+				}
+                if(key == EsbViewsRepository.BeanMediator.Properties.targetExpression) {
+                    return createTargetExpressionWidget(widgetFactory, filterTargetSubPropertiesGroup);
+                }
+                if(key == EsbViewsRepository.BeanMediator.Properties.valueExpression) {
+                    return createValueExpressionWidget(widgetFactory, filterValueSubPropertiesGroup);
+                }
+				// End of user code
+
+Fri Apr 26 19:41:37 IST 2019
+================================================================================
+Start of user code for addToPart creation
+				if (key == EsbViewsRepository.BeanMediator.Properties.class) {
+					return createPropertiesGroup(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.description) {
+					return createDescriptionText(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.commentsList) {
+					return createCommentsListMultiValuedEditor(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.reverse) {
+					return createReverseCheckbox(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.class_) {
+					return createClass_Text(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.action) {
+					return createActionEMFComboViewer(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.var) {
+					return createVarText(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.property) {
+					return createPropertyText(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.valueType) {
+					return createValueTypeEMFComboViewer(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.valueLiteral) {
+					return createValueLiteralText(widgetFactory, filterValueSubPropertiesGroup);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.targetType) {
+					return createTargetTypeEMFComboViewer(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.targetLiteral) {
+					return createTargetLiteralText(widgetFactory, filterTargetSubPropertiesGroup);
+				}
+                if(key == EsbViewsRepository.BeanMediator.Properties.targetExpression) {
+                    return createTargetExpressionWidget(widgetFactory, filterTargetSubPropertiesGroup);
+                }
+                if(key == EsbViewsRepository.BeanMediator.Properties.valueExpression) {
+                    return createValueExpressionWidget(widgetFactory, filterValueSubPropertiesGroup);
+                }
+				// End of user code
+
+Sat Apr 27 15:30:50 IST 2019
+================================================================================
+Start of user code for addToPart creation
+				if (key == EsbViewsRepository.BeanMediator.Properties.class) {
+					return createPropertiesGroup(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.description) {
+					return createDescriptionText(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.commentsList) {
+					return createCommentsListMultiValuedEditor(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.reverse) {
+					return createReverseCheckbox(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.class_) {
+					return createClass_Text(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.action) {
+					return createActionEMFComboViewer(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.var) {
+					return createVarText(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.property) {
+					return createPropertyText(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.valueType) {
+					return createValueTypeEMFComboViewer(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.valueLiteral) {
+					return createValueLiteralText(widgetFactory, filterValueSubPropertiesGroup);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.targetType) {
+					return createTargetTypeEMFComboViewer(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.targetLiteral) {
+					return createTargetLiteralText(widgetFactory, filterTargetSubPropertiesGroup);
+				}
+                if(key == EsbViewsRepository.BeanMediator.Properties.targetExpression) {
+                    return createTargetExpressionWidget(widgetFactory, filterTargetSubPropertiesGroup);
+                }
+                if(key == EsbViewsRepository.BeanMediator.Properties.valueExpression) {
+                    return createValueExpressionWidget(widgetFactory, filterValueSubPropertiesGroup);
+                }
+				// End of user code
+
+Mon Apr 29 15:22:22 IST 2019
+================================================================================
+Start of user code for addToPart creation
+				if (key == EsbViewsRepository.BeanMediator.Properties.class) {
+					return createPropertiesGroup(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.description) {
+					return createDescriptionText(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.commentsList) {
+					return createCommentsListMultiValuedEditor(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.reverse) {
+					return createReverseCheckbox(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.class_) {
+					return createClass_Text(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.action) {
+					return createActionEMFComboViewer(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.var) {
+					return createVarText(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.property) {
+					return createPropertyText(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.valueType) {
+					return createValueTypeEMFComboViewer(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.valueLiteral) {
+					return createValueLiteralText(widgetFactory, filterValueSubPropertiesGroup);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.targetType) {
+					return createTargetTypeEMFComboViewer(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.BeanMediator.Properties.targetLiteral) {
+					return createTargetLiteralText(widgetFactory, filterTargetSubPropertiesGroup);
+				}
+                if(key == EsbViewsRepository.BeanMediator.Properties.targetExpression) {
+                    return createTargetExpressionWidget(widgetFactory, filterTargetSubPropertiesGroup);
+                }
+                if(key == EsbViewsRepository.BeanMediator.Properties.valueExpression) {
+                    return createValueExpressionWidget(widgetFactory, filterValueSubPropertiesGroup);
+                }
+				// End of user code

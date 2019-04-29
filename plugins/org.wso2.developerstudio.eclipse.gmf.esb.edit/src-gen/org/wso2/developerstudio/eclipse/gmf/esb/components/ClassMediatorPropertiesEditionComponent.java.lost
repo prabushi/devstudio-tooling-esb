@@ -1,0 +1,60 @@
+
+Fri Apr 26 17:41:59 IST 2019
+================================================================================
+Start of user code for updateProperty method body
+		if (EsbViewsRepository.ClassMediator.Properties.properties_ == event.getAffectedEditor()) {
+            if (event.getKind() == PropertiesEditionEvent.ADD) {
+                EReferencePropertiesEditionContext context = new EReferencePropertiesEditionContext(editingContext, this, propertiesSettings, editingContext.getAdapterFactory());
+                PropertiesEditingProvider provider = (PropertiesEditingProvider)editingContext.getAdapterFactory().adapt(semanticObject, PropertiesEditingProvider.class);
+                if (provider != null) {
+                    PropertiesEditingPolicy policy = provider.getPolicy(context);
+                    if (policy instanceof CreateEditingPolicy) {
+                        policy.execute();
+                    }
+                }
+            } else if (event.getKind() == PropertiesEditionEvent.EDIT) {
+                EObjectPropertiesEditionContext context = new EObjectPropertiesEditionContext(editingContext, this, (EObject) event.getNewValue(), editingContext.getAdapterFactory());
+                PropertiesEditingProvider provider = (PropertiesEditingProvider)editingContext.getAdapterFactory().adapt((EObject) event.getNewValue(), PropertiesEditingProvider.class);
+                if (provider != null) {
+                    PropertiesEditingPolicy editionPolicy = provider.getPolicy(context);
+                    if (editionPolicy != null) {
+                        editionPolicy.execute();
+                    }
+                }
+            } else if (event.getKind() == PropertiesEditionEvent.REMOVE) {
+                propertiesSettings.removeFromReference((EObject) event.getNewValue());
+            } else if (event.getKind() == PropertiesEditionEvent.MOVE) {
+                propertiesSettings.move(event.getNewIndex(), (ClassProperty) event.getNewValue());
+            }
+        }
+		// End of user code
+
+Mon Apr 29 15:21:51 IST 2019
+================================================================================
+Start of user code for updateProperty method body
+		if (EsbViewsRepository.ClassMediator.Properties.properties_ == event.getAffectedEditor()) {
+            if (event.getKind() == PropertiesEditionEvent.ADD) {
+                EReferencePropertiesEditionContext context = new EReferencePropertiesEditionContext(editingContext, this, propertiesSettings, editingContext.getAdapterFactory());
+                PropertiesEditingProvider provider = (PropertiesEditingProvider)editingContext.getAdapterFactory().adapt(semanticObject, PropertiesEditingProvider.class);
+                if (provider != null) {
+                    PropertiesEditingPolicy policy = provider.getPolicy(context);
+                    if (policy instanceof CreateEditingPolicy) {
+                        policy.execute();
+                    }
+                }
+            } else if (event.getKind() == PropertiesEditionEvent.EDIT) {
+                EObjectPropertiesEditionContext context = new EObjectPropertiesEditionContext(editingContext, this, (EObject) event.getNewValue(), editingContext.getAdapterFactory());
+                PropertiesEditingProvider provider = (PropertiesEditingProvider)editingContext.getAdapterFactory().adapt((EObject) event.getNewValue(), PropertiesEditingProvider.class);
+                if (provider != null) {
+                    PropertiesEditingPolicy editionPolicy = provider.getPolicy(context);
+                    if (editionPolicy != null) {
+                        editionPolicy.execute();
+                    }
+                }
+            } else if (event.getKind() == PropertiesEditionEvent.REMOVE) {
+                propertiesSettings.removeFromReference((EObject) event.getNewValue());
+            } else if (event.getKind() == PropertiesEditionEvent.MOVE) {
+                propertiesSettings.move(event.getNewIndex(), (ClassProperty) event.getNewValue());
+            }
+        }
+		// End of user code

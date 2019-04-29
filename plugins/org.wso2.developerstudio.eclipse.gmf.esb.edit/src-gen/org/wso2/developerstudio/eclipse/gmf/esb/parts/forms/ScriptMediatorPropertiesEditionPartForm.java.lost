@@ -1,0 +1,260 @@
+
+Fri Apr 26 17:42:28 IST 2019
+================================================================================
+Start of user code 
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.scriptLanguage);
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.scriptType);
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.mediateFunction);
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.scriptBody);
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.keyType);
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.scriptKeys);
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.scriptStaticKey);
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.scriptDynamicKey);
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.description);
+		// End of user code
+Start of user code for components addToPart creation
+				if (key == EsbViewsRepository.ScriptMediator.Properties.class) {
+					return createPropertiesGroup(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.description) {
+					return createDescriptionText(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.commentsList) {
+					return createCommentsListMultiValuedEditor(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.reverse) {
+					return createReverseCheckbox(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.scriptType) {
+					return createScriptTypeEMFComboViewer(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.scriptLanguage) {
+					return createScriptLanguageEMFComboViewer(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.mediateFunction) {
+					return createMediateFunctionText(widgetFactory, filterScriptTypeSubPropertiesGroup);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.scriptBody) {
+					return createScriptBodyText(widgetFactory, filterScriptTypeSubPropertiesGroup);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.keyType) {
+					return createKeyTypeEMFComboViewer(widgetFactory, filterScriptTypeSubPropertiesGroup);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.scriptKeys) {
+					return createScriptKeysTableComposition(widgetFactory, filterScriptTypeSubPropertiesGroup);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.scriptStaticKey) {
+					return createScriptStaticKey(widgetFactory, filterScriptTypeSubPropertiesGroup);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.scriptDynamicKey) {
+					return createScriptDynamicKey(widgetFactory, filterScriptTypeSubPropertiesGroup);
+				}
+				// End of user code
+
+Fri Apr 26 17:51:18 IST 2019
+================================================================================
+Start of user code 
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.scriptLanguage);
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.scriptType);
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.mediateFunction);
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.scriptBody);
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.keyType);
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.scriptKeys);
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.scriptStaticKey);
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.scriptDynamicKey);
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.description);
+		// End of user code
+Start of user code for components addToPart creation
+				if (key == EsbViewsRepository.ScriptMediator.Properties.class) {
+					return createPropertiesGroup(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.description) {
+					return createDescriptionText(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.commentsList) {
+					return createCommentsListMultiValuedEditor(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.reverse) {
+					return createReverseCheckbox(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.scriptType) {
+					return createScriptTypeEMFComboViewer(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.scriptLanguage) {
+					return createScriptLanguageEMFComboViewer(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.mediateFunction) {
+					return createMediateFunctionText(widgetFactory, filterScriptTypeSubPropertiesGroup);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.scriptBody) {
+					return createScriptBodyText(widgetFactory, filterScriptTypeSubPropertiesGroup);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.keyType) {
+					return createKeyTypeEMFComboViewer(widgetFactory, filterScriptTypeSubPropertiesGroup);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.scriptKeys) {
+					return createScriptKeysTableComposition(widgetFactory, filterScriptTypeSubPropertiesGroup);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.scriptStaticKey) {
+					return createScriptStaticKey(widgetFactory, filterScriptTypeSubPropertiesGroup);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.scriptDynamicKey) {
+					return createScriptDynamicKey(widgetFactory, filterScriptTypeSubPropertiesGroup);
+				}
+				// End of user code
+
+Fri Apr 26 19:41:38 IST 2019
+================================================================================
+Start of user code 
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.scriptLanguage);
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.scriptType);
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.mediateFunction);
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.scriptBody);
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.keyType);
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.scriptKeys);
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.scriptStaticKey);
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.scriptDynamicKey);
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.description);
+		// End of user code
+Start of user code for components addToPart creation
+				if (key == EsbViewsRepository.ScriptMediator.Properties.class) {
+					return createPropertiesGroup(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.description) {
+					return createDescriptionText(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.commentsList) {
+					return createCommentsListMultiValuedEditor(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.reverse) {
+					return createReverseCheckbox(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.scriptType) {
+					return createScriptTypeEMFComboViewer(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.scriptLanguage) {
+					return createScriptLanguageEMFComboViewer(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.mediateFunction) {
+					return createMediateFunctionText(widgetFactory, filterScriptTypeSubPropertiesGroup);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.scriptBody) {
+					return createScriptBodyText(widgetFactory, filterScriptTypeSubPropertiesGroup);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.keyType) {
+					return createKeyTypeEMFComboViewer(widgetFactory, filterScriptTypeSubPropertiesGroup);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.scriptKeys) {
+					return createScriptKeysTableComposition(widgetFactory, filterScriptTypeSubPropertiesGroup);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.scriptStaticKey) {
+					return createScriptStaticKey(widgetFactory, filterScriptTypeSubPropertiesGroup);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.scriptDynamicKey) {
+					return createScriptDynamicKey(widgetFactory, filterScriptTypeSubPropertiesGroup);
+				}
+				// End of user code
+
+Sat Apr 27 15:30:52 IST 2019
+================================================================================
+Start of user code 
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.scriptLanguage);
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.scriptType);
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.mediateFunction);
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.scriptBody);
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.keyType);
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.scriptKeys);
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.scriptStaticKey);
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.scriptDynamicKey);
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.description);
+		// End of user code
+Start of user code for components addToPart creation
+				if (key == EsbViewsRepository.ScriptMediator.Properties.class) {
+					return createPropertiesGroup(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.description) {
+					return createDescriptionText(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.commentsList) {
+					return createCommentsListMultiValuedEditor(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.reverse) {
+					return createReverseCheckbox(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.scriptType) {
+					return createScriptTypeEMFComboViewer(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.scriptLanguage) {
+					return createScriptLanguageEMFComboViewer(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.mediateFunction) {
+					return createMediateFunctionText(widgetFactory, filterScriptTypeSubPropertiesGroup);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.scriptBody) {
+					return createScriptBodyText(widgetFactory, filterScriptTypeSubPropertiesGroup);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.keyType) {
+					return createKeyTypeEMFComboViewer(widgetFactory, filterScriptTypeSubPropertiesGroup);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.scriptKeys) {
+					return createScriptKeysTableComposition(widgetFactory, filterScriptTypeSubPropertiesGroup);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.scriptStaticKey) {
+					return createScriptStaticKey(widgetFactory, filterScriptTypeSubPropertiesGroup);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.scriptDynamicKey) {
+					return createScriptDynamicKey(widgetFactory, filterScriptTypeSubPropertiesGroup);
+				}
+				// End of user code
+
+Mon Apr 29 15:22:24 IST 2019
+================================================================================
+Start of user code 
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.scriptLanguage);
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.scriptType);
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.mediateFunction);
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.scriptBody);
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.keyType);
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.scriptKeys);
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.scriptStaticKey);
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.scriptDynamicKey);
+		propertiesStep.addStep(EsbViewsRepository.ScriptMediator.Properties.description);
+		// End of user code
+Start of user code for components addToPart creation
+				if (key == EsbViewsRepository.ScriptMediator.Properties.class) {
+					return createPropertiesGroup(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.description) {
+					return createDescriptionText(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.commentsList) {
+					return createCommentsListMultiValuedEditor(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.reverse) {
+					return createReverseCheckbox(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.scriptType) {
+					return createScriptTypeEMFComboViewer(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.scriptLanguage) {
+					return createScriptLanguageEMFComboViewer(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.mediateFunction) {
+					return createMediateFunctionText(widgetFactory, filterScriptTypeSubPropertiesGroup);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.scriptBody) {
+					return createScriptBodyText(widgetFactory, filterScriptTypeSubPropertiesGroup);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.keyType) {
+					return createKeyTypeEMFComboViewer(widgetFactory, filterScriptTypeSubPropertiesGroup);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.scriptKeys) {
+					return createScriptKeysTableComposition(widgetFactory, filterScriptTypeSubPropertiesGroup);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.scriptStaticKey) {
+					return createScriptStaticKey(widgetFactory, filterScriptTypeSubPropertiesGroup);
+				}
+				if (key == EsbViewsRepository.ScriptMediator.Properties.scriptDynamicKey) {
+					return createScriptDynamicKey(widgetFactory, filterScriptTypeSubPropertiesGroup);
+				}
+				// End of user code

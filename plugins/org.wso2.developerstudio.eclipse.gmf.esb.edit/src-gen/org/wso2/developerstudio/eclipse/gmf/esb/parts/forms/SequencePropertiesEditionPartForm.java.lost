@@ -1,0 +1,85 @@
+
+Fri Apr 26 17:42:27 IST 2019
+================================================================================
+Start of user code
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.commentsList);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.reverse);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.name);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.key);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.outputConnector);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.includedMediators);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.receiveSequence);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.duplicate);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.referringSequenceType);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.staticReferenceKey);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.dynamicReferenceKey);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.description);
+        // End of user code
+
+Fri Apr 26 17:51:18 IST 2019
+================================================================================
+Start of user code
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.commentsList);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.reverse);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.name);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.key);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.outputConnector);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.includedMediators);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.receiveSequence);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.duplicate);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.referringSequenceType);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.staticReferenceKey);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.dynamicReferenceKey);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.description);
+        // End of user code
+
+Fri Apr 26 19:41:38 IST 2019
+================================================================================
+Start of user code
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.commentsList);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.reverse);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.name);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.key);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.outputConnector);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.includedMediators);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.receiveSequence);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.duplicate);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.referringSequenceType);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.staticReferenceKey);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.dynamicReferenceKey);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.description);
+        // End of user code
+
+Sat Apr 27 15:30:51 IST 2019
+================================================================================
+Start of user code
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.commentsList);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.reverse);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.name);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.key);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.outputConnector);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.includedMediators);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.receiveSequence);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.duplicate);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.referringSequenceType);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.staticReferenceKey);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.dynamicReferenceKey);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.description);
+        // End of user code
+
+Mon Apr 29 15:22:23 IST 2019
+================================================================================
+Start of user code
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.commentsList);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.reverse);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.name);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.key);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.outputConnector);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.includedMediators);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.receiveSequence);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.duplicate);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.referringSequenceType);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.staticReferenceKey);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.dynamicReferenceKey);
+		propertiesStep.addStep(EsbViewsRepository.Sequence.Properties.description);
+        // End of user code

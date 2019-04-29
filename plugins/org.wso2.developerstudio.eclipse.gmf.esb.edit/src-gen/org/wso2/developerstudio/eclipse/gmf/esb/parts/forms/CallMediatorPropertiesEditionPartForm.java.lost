@@ -1,0 +1,160 @@
+
+Fri Apr 26 17:42:23 IST 2019
+================================================================================
+Start of user code for components addToPart creation
+				if (key == EsbViewsRepository.CallMediator.Properties.class) {
+					return createPropertiesGroup(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallMediator.Properties.description) {
+					return createDescriptionText(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallMediator.Properties.commentsList) {
+					return createCommentsListMultiValuedEditor(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallMediator.Properties.reverse) {
+					return createReverseCheckbox(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallMediator.Properties.endpoint) {
+					return createEndpointReferencesTable(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallMediator.Properties.endpointType) {
+					return createEndpointTypeEMFComboViewer(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallMediator.Properties.enableBlockingCalls) {
+					return createEnableBlockingCallsCheckbox(widgetFactory, parent);
+				}
+                if (key == EsbViewsRepository.CallMediator.Properties.endpointXpath) {
+                    return createEndpointXPathWidget(widgetFactory, filterEndpointTypeSubPropertiesGroup);
+                }
+                if (key == EsbViewsRepository.CallMediator.Properties.endpointRegistryKey) {
+                    return createEndpointRegistryKeyWidget(widgetFactory, filterEndpointTypeSubPropertiesGroup);
+                }
+				// End of user code
+
+Fri Apr 26 17:51:14 IST 2019
+================================================================================
+Start of user code for components addToPart creation
+				if (key == EsbViewsRepository.CallMediator.Properties.class) {
+					return createPropertiesGroup(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallMediator.Properties.description) {
+					return createDescriptionText(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallMediator.Properties.commentsList) {
+					return createCommentsListMultiValuedEditor(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallMediator.Properties.reverse) {
+					return createReverseCheckbox(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallMediator.Properties.endpoint) {
+					return createEndpointReferencesTable(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallMediator.Properties.endpointType) {
+					return createEndpointTypeEMFComboViewer(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallMediator.Properties.enableBlockingCalls) {
+					return createEnableBlockingCallsCheckbox(widgetFactory, parent);
+				}
+                if (key == EsbViewsRepository.CallMediator.Properties.endpointXpath) {
+                    return createEndpointXPathWidget(widgetFactory, filterEndpointTypeSubPropertiesGroup);
+                }
+                if (key == EsbViewsRepository.CallMediator.Properties.endpointRegistryKey) {
+                    return createEndpointRegistryKeyWidget(widgetFactory, filterEndpointTypeSubPropertiesGroup);
+                }
+				// End of user code
+
+Fri Apr 26 19:41:34 IST 2019
+================================================================================
+Start of user code for components addToPart creation
+				if (key == EsbViewsRepository.CallMediator.Properties.class) {
+					return createPropertiesGroup(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallMediator.Properties.description) {
+					return createDescriptionText(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallMediator.Properties.commentsList) {
+					return createCommentsListMultiValuedEditor(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallMediator.Properties.reverse) {
+					return createReverseCheckbox(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallMediator.Properties.endpoint) {
+					return createEndpointReferencesTable(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallMediator.Properties.endpointType) {
+					return createEndpointTypeEMFComboViewer(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallMediator.Properties.enableBlockingCalls) {
+					return createEnableBlockingCallsCheckbox(widgetFactory, parent);
+				}
+                if (key == EsbViewsRepository.CallMediator.Properties.endpointXpath) {
+                    return createEndpointXPathWidget(widgetFactory, filterEndpointTypeSubPropertiesGroup);
+                }
+                if (key == EsbViewsRepository.CallMediator.Properties.endpointRegistryKey) {
+                    return createEndpointRegistryKeyWidget(widgetFactory, filterEndpointTypeSubPropertiesGroup);
+                }
+				// End of user code
+
+Sat Apr 27 15:30:48 IST 2019
+================================================================================
+Start of user code for components addToPart creation
+				if (key == EsbViewsRepository.CallMediator.Properties.class) {
+					return createPropertiesGroup(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallMediator.Properties.description) {
+					return createDescriptionText(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallMediator.Properties.commentsList) {
+					return createCommentsListMultiValuedEditor(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallMediator.Properties.reverse) {
+					return createReverseCheckbox(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallMediator.Properties.endpoint) {
+					return createEndpointReferencesTable(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallMediator.Properties.endpointType) {
+					return createEndpointTypeEMFComboViewer(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallMediator.Properties.enableBlockingCalls) {
+					return createEnableBlockingCallsCheckbox(widgetFactory, parent);
+				}
+                if (key == EsbViewsRepository.CallMediator.Properties.endpointXpath) {
+                    return createEndpointXPathWidget(widgetFactory, filterEndpointTypeSubPropertiesGroup);
+                }
+                if (key == EsbViewsRepository.CallMediator.Properties.endpointRegistryKey) {
+                    return createEndpointRegistryKeyWidget(widgetFactory, filterEndpointTypeSubPropertiesGroup);
+                }
+				// End of user code
+
+Mon Apr 29 15:22:19 IST 2019
+================================================================================
+Start of user code for components addToPart creation
+				if (key == EsbViewsRepository.CallMediator.Properties.class) {
+					return createPropertiesGroup(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallMediator.Properties.description) {
+					return createDescriptionText(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallMediator.Properties.commentsList) {
+					return createCommentsListMultiValuedEditor(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallMediator.Properties.reverse) {
+					return createReverseCheckbox(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallMediator.Properties.endpoint) {
+					return createEndpointReferencesTable(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallMediator.Properties.endpointType) {
+					return createEndpointTypeEMFComboViewer(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallMediator.Properties.enableBlockingCalls) {
+					return createEnableBlockingCallsCheckbox(widgetFactory, parent);
+				}
+                if (key == EsbViewsRepository.CallMediator.Properties.endpointXpath) {
+                    return createEndpointXPathWidget(widgetFactory, filterEndpointTypeSubPropertiesGroup);
+                }
+                if (key == EsbViewsRepository.CallMediator.Properties.endpointRegistryKey) {
+                    return createEndpointRegistryKeyWidget(widgetFactory, filterEndpointTypeSubPropertiesGroup);
+                }
+				// End of user code

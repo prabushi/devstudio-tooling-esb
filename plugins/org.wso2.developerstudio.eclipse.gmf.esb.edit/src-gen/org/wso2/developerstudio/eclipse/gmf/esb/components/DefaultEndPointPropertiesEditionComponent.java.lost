@@ -1,0 +1,135 @@
+
+Fri Apr 26 17:41:54 IST 2019
+================================================================================
+Start of user code for help compatibility
+    /**
+     * @generated NOT
+     */
+    @Override
+    public String getHelpContent(Object key, int kind) {
+        return EEFPropertyViewUtil.getHelpContent(key);
+    }
+    // End of user code
+Start of user code for failover error codes
+				if (EsbViewsRepository.DefaultEndPoint.FailoverErrorCodes.failoverNonRetryErrorCodes == event.getAffectedEditor()) {
+					Object newValue = event.getNewValue();
+					if (newValue instanceof String) {
+						newValue = EEFConverterUtil.createFromString(EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverNonRetryErrorCodes().getEAttributeType(), (String)newValue);
+					}
+					ret = Diagnostician.INSTANCE.validate(EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverNonRetryErrorCodes().getEAttributeType(), newValue);
+				}
+				// End of user code
+Start of user code for failover retry error codes
+			if (isAccessible(EsbViewsRepository.DefaultEndPoint.FailoverErrorCodes.failoverNonRetryErrorCodes)) {
+				basePart.setFailoverNonRetryErrorCodes(EEFConverterUtil.convertToString(EcorePackage.Literals.ESTRING,
+						defaultEndPoint.getFailoverNonRetryErrorCodes()));
+			}
+			// End of user code
+
+Fri Apr 26 17:50:47 IST 2019
+================================================================================
+Start of user code for help compatibility
+    /**
+     * @generated NOT
+     */
+    @Override
+    public String getHelpContent(Object key, int kind) {
+        return EEFPropertyViewUtil.getHelpContent(key);
+    }
+    // End of user code
+Start of user code for failover error codes
+				if (EsbViewsRepository.DefaultEndPoint.FailoverErrorCodes.failoverNonRetryErrorCodes == event.getAffectedEditor()) {
+					Object newValue = event.getNewValue();
+					if (newValue instanceof String) {
+						newValue = EEFConverterUtil.createFromString(EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverNonRetryErrorCodes().getEAttributeType(), (String)newValue);
+					}
+					ret = Diagnostician.INSTANCE.validate(EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverNonRetryErrorCodes().getEAttributeType(), newValue);
+				}
+				// End of user code
+Start of user code for failover retry error codes
+			if (isAccessible(EsbViewsRepository.DefaultEndPoint.FailoverErrorCodes.failoverNonRetryErrorCodes)) {
+				basePart.setFailoverNonRetryErrorCodes(EEFConverterUtil.convertToString(EcorePackage.Literals.ESTRING,
+						defaultEndPoint.getFailoverNonRetryErrorCodes()));
+			}
+			// End of user code
+
+Fri Apr 26 19:41:07 IST 2019
+================================================================================
+Start of user code for help compatibility
+    /**
+     * @generated NOT
+     */
+    @Override
+    public String getHelpContent(Object key, int kind) {
+        return EEFPropertyViewUtil.getHelpContent(key);
+    }
+    // End of user code
+Start of user code for failover error codes
+				if (EsbViewsRepository.DefaultEndPoint.FailoverErrorCodes.failoverNonRetryErrorCodes == event.getAffectedEditor()) {
+					Object newValue = event.getNewValue();
+					if (newValue instanceof String) {
+						newValue = EEFConverterUtil.createFromString(EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverNonRetryErrorCodes().getEAttributeType(), (String)newValue);
+					}
+					ret = Diagnostician.INSTANCE.validate(EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverNonRetryErrorCodes().getEAttributeType(), newValue);
+				}
+				// End of user code
+Start of user code for failover retry error codes
+			if (isAccessible(EsbViewsRepository.DefaultEndPoint.FailoverErrorCodes.failoverNonRetryErrorCodes)) {
+				basePart.setFailoverNonRetryErrorCodes(EEFConverterUtil.convertToString(EcorePackage.Literals.ESTRING,
+						defaultEndPoint.getFailoverNonRetryErrorCodes()));
+			}
+			// End of user code
+
+Sat Apr 27 15:30:20 IST 2019
+================================================================================
+Start of user code for help compatibility
+    /**
+     * @generated NOT
+     */
+    @Override
+    public String getHelpContent(Object key, int kind) {
+        return EEFPropertyViewUtil.getHelpContent(key);
+    }
+    // End of user code
+Start of user code for failover error codes
+				if (EsbViewsRepository.DefaultEndPoint.FailoverErrorCodes.failoverNonRetryErrorCodes == event.getAffectedEditor()) {
+					Object newValue = event.getNewValue();
+					if (newValue instanceof String) {
+						newValue = EEFConverterUtil.createFromString(EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverNonRetryErrorCodes().getEAttributeType(), (String)newValue);
+					}
+					ret = Diagnostician.INSTANCE.validate(EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverNonRetryErrorCodes().getEAttributeType(), newValue);
+				}
+				// End of user code
+Start of user code for failover retry error codes
+			if (isAccessible(EsbViewsRepository.DefaultEndPoint.FailoverErrorCodes.failoverNonRetryErrorCodes)) {
+				basePart.setFailoverNonRetryErrorCodes(EEFConverterUtil.convertToString(EcorePackage.Literals.ESTRING,
+						defaultEndPoint.getFailoverNonRetryErrorCodes()));
+			}
+			// End of user code
+
+Mon Apr 29 15:21:47 IST 2019
+================================================================================
+Start of user code for help compatibility
+    /**
+     * @generated NOT
+     */
+    @Override
+    public String getHelpContent(Object key, int kind) {
+        return EEFPropertyViewUtil.getHelpContent(key);
+    }
+    // End of user code
+Start of user code for failover error codes
+				if (EsbViewsRepository.DefaultEndPoint.FailoverErrorCodes.failoverNonRetryErrorCodes == event.getAffectedEditor()) {
+					Object newValue = event.getNewValue();
+					if (newValue instanceof String) {
+						newValue = EEFConverterUtil.createFromString(EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverNonRetryErrorCodes().getEAttributeType(), (String)newValue);
+					}
+					ret = Diagnostician.INSTANCE.validate(EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverNonRetryErrorCodes().getEAttributeType(), newValue);
+				}
+				// End of user code
+Start of user code for failover retry error codes
+			if (isAccessible(EsbViewsRepository.DefaultEndPoint.FailoverErrorCodes.failoverNonRetryErrorCodes)) {
+				basePart.setFailoverNonRetryErrorCodes(EEFConverterUtil.convertToString(EcorePackage.Literals.ESTRING,
+						defaultEndPoint.getFailoverNonRetryErrorCodes()));
+			}
+			// End of user code

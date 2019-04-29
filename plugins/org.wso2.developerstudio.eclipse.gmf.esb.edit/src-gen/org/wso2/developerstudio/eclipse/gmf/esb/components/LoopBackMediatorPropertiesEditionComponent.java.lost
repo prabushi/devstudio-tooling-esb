@@ -1,0 +1,70 @@
+
+Fri Apr 26 17:42:03 IST 2019
+================================================================================
+Start of user code for help compatibility
+
+    /**
+     * @generated NOT
+     */
+    @Override
+    public String getHelpContent(Object key, int kind) {
+        return EEFPropertyViewUtil.getHelpContent(key);
+    }
+
+    // End of user code
+
+Fri Apr 26 17:50:53 IST 2019
+================================================================================
+Start of user code for help compatibility
+
+    /**
+     * @generated NOT
+     */
+    @Override
+    public String getHelpContent(Object key, int kind) {
+        return EEFPropertyViewUtil.getHelpContent(key);
+    }
+
+    // End of user code
+
+Fri Apr 26 19:41:14 IST 2019
+================================================================================
+Start of user code for help compatibility
+
+    /**
+     * @generated NOT
+     */
+    @Override
+    public String getHelpContent(Object key, int kind) {
+        return EEFPropertyViewUtil.getHelpContent(key);
+    }
+
+    // End of user code
+
+Sat Apr 27 15:30:26 IST 2019
+================================================================================
+Start of user code for help compatibility
+
+    /**
+     * @generated NOT
+     */
+    @Override
+    public String getHelpContent(Object key, int kind) {
+        return EEFPropertyViewUtil.getHelpContent(key);
+    }
+
+    // End of user code
+
+Mon Apr 29 15:21:55 IST 2019
+================================================================================
+Start of user code for help compatibility
+
+    /**
+     * @generated NOT
+     */
+    @Override
+    public String getHelpContent(Object key, int kind) {
+        return EEFPropertyViewUtil.getHelpContent(key);
+    }
+
+    // End of user code

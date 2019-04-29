@@ -1,0 +1,240 @@
+
+Fri Apr 26 17:41:55 IST 2019
+================================================================================
+Start of user code for help compatibility
+    /**
+     * @generated NOT
+     */
+    @Override
+    public String getHelpContent(Object key, int kind) {
+        return EEFPropertyViewUtil.getHelpContent(key);
+    }
+    // End of user code
+Start of user code for failover error codes
+				if (EsbViewsRepository.AddressEndPoint.FailoverErrorCodes.failoverType == event.getAffectedEditor()) {
+					Object newValue = event.getNewValue();
+					if (newValue instanceof String) {
+						newValue = EEFConverterUtil.createFromString(EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverRetryType().getEAttributeType(), (String)newValue);
+					}
+					ret = Diagnostician.INSTANCE.validate(EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverRetryType().getEAttributeType(), newValue);
+				}
+				
+				if (EsbViewsRepository.AddressEndPoint.FailoverErrorCodes.failoverRetryErrorCodes == event.getAffectedEditor()) {
+					Object newValue = event.getNewValue();
+					if (newValue instanceof String) {
+						newValue = EEFConverterUtil.createFromString(EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverRetryErrorCodes().getEAttributeType(), (String)newValue);
+					}
+					ret = Diagnostician.INSTANCE.validate(EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverRetryErrorCodes().getEAttributeType(), newValue);
+				}
+				
+				if (EsbViewsRepository.AddressEndPoint.FailoverErrorCodes.failoverNonRetryErrorCodes == event.getAffectedEditor()) {
+					Object newValue = event.getNewValue();
+					if (newValue instanceof String) {
+						newValue = EEFConverterUtil.createFromString(EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverNonRetryErrorCodes().getEAttributeType(), (String)newValue);
+					}
+					ret = Diagnostician.INSTANCE.validate(EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverNonRetryErrorCodes().getEAttributeType(), newValue);
+				}
+				// End of user code
+Start of user code  for failover retry error codes
+			if (isAccessible(EsbViewsRepository.AddressEndPoint.FailoverErrorCodes.failoverType)) {
+				basePart.initFailoverType(EEFUtils.choiceOfValues(addressEndPoint, EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverRetryType()), addressEndPoint.getFailoverRetryType());
+			}
+			if (isAccessible(EsbViewsRepository.AddressEndPoint.FailoverErrorCodes.failoverRetryErrorCodes)) {
+				basePart.setFailoverRetryErrorCodes(EEFConverterUtil.convertToString(EcorePackage.Literals.ESTRING, addressEndPoint.getFailoverRetryErrorCodes()));
+			}
+			if (isAccessible(EsbViewsRepository.AddressEndPoint.FailoverErrorCodes.failoverNonRetryErrorCodes)) {
+				basePart.setFailoverNonRetryErrorCodes(EEFConverterUtil.convertToString(EcorePackage.Literals.ESTRING, addressEndPoint.getFailoverNonRetryErrorCodes()));
+			}
+			// End of user code
+
+Fri Apr 26 17:50:47 IST 2019
+================================================================================
+Start of user code for help compatibility
+    /**
+     * @generated NOT
+     */
+    @Override
+    public String getHelpContent(Object key, int kind) {
+        return EEFPropertyViewUtil.getHelpContent(key);
+    }
+    // End of user code
+Start of user code for failover error codes
+				if (EsbViewsRepository.AddressEndPoint.FailoverErrorCodes.failoverType == event.getAffectedEditor()) {
+					Object newValue = event.getNewValue();
+					if (newValue instanceof String) {
+						newValue = EEFConverterUtil.createFromString(EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverRetryType().getEAttributeType(), (String)newValue);
+					}
+					ret = Diagnostician.INSTANCE.validate(EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverRetryType().getEAttributeType(), newValue);
+				}
+				
+				if (EsbViewsRepository.AddressEndPoint.FailoverErrorCodes.failoverRetryErrorCodes == event.getAffectedEditor()) {
+					Object newValue = event.getNewValue();
+					if (newValue instanceof String) {
+						newValue = EEFConverterUtil.createFromString(EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverRetryErrorCodes().getEAttributeType(), (String)newValue);
+					}
+					ret = Diagnostician.INSTANCE.validate(EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverRetryErrorCodes().getEAttributeType(), newValue);
+				}
+				
+				if (EsbViewsRepository.AddressEndPoint.FailoverErrorCodes.failoverNonRetryErrorCodes == event.getAffectedEditor()) {
+					Object newValue = event.getNewValue();
+					if (newValue instanceof String) {
+						newValue = EEFConverterUtil.createFromString(EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverNonRetryErrorCodes().getEAttributeType(), (String)newValue);
+					}
+					ret = Diagnostician.INSTANCE.validate(EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverNonRetryErrorCodes().getEAttributeType(), newValue);
+				}
+				// End of user code
+Start of user code  for failover retry error codes
+			if (isAccessible(EsbViewsRepository.AddressEndPoint.FailoverErrorCodes.failoverType)) {
+				basePart.initFailoverType(EEFUtils.choiceOfValues(addressEndPoint, EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverRetryType()), addressEndPoint.getFailoverRetryType());
+			}
+			if (isAccessible(EsbViewsRepository.AddressEndPoint.FailoverErrorCodes.failoverRetryErrorCodes)) {
+				basePart.setFailoverRetryErrorCodes(EEFConverterUtil.convertToString(EcorePackage.Literals.ESTRING, addressEndPoint.getFailoverRetryErrorCodes()));
+			}
+			if (isAccessible(EsbViewsRepository.AddressEndPoint.FailoverErrorCodes.failoverNonRetryErrorCodes)) {
+				basePart.setFailoverNonRetryErrorCodes(EEFConverterUtil.convertToString(EcorePackage.Literals.ESTRING, addressEndPoint.getFailoverNonRetryErrorCodes()));
+			}
+			// End of user code
+
+Fri Apr 26 19:41:08 IST 2019
+================================================================================
+Start of user code for help compatibility
+    /**
+     * @generated NOT
+     */
+    @Override
+    public String getHelpContent(Object key, int kind) {
+        return EEFPropertyViewUtil.getHelpContent(key);
+    }
+    // End of user code
+Start of user code for failover error codes
+				if (EsbViewsRepository.AddressEndPoint.FailoverErrorCodes.failoverType == event.getAffectedEditor()) {
+					Object newValue = event.getNewValue();
+					if (newValue instanceof String) {
+						newValue = EEFConverterUtil.createFromString(EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverRetryType().getEAttributeType(), (String)newValue);
+					}
+					ret = Diagnostician.INSTANCE.validate(EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverRetryType().getEAttributeType(), newValue);
+				}
+				
+				if (EsbViewsRepository.AddressEndPoint.FailoverErrorCodes.failoverRetryErrorCodes == event.getAffectedEditor()) {
+					Object newValue = event.getNewValue();
+					if (newValue instanceof String) {
+						newValue = EEFConverterUtil.createFromString(EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverRetryErrorCodes().getEAttributeType(), (String)newValue);
+					}
+					ret = Diagnostician.INSTANCE.validate(EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverRetryErrorCodes().getEAttributeType(), newValue);
+				}
+				
+				if (EsbViewsRepository.AddressEndPoint.FailoverErrorCodes.failoverNonRetryErrorCodes == event.getAffectedEditor()) {
+					Object newValue = event.getNewValue();
+					if (newValue instanceof String) {
+						newValue = EEFConverterUtil.createFromString(EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverNonRetryErrorCodes().getEAttributeType(), (String)newValue);
+					}
+					ret = Diagnostician.INSTANCE.validate(EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverNonRetryErrorCodes().getEAttributeType(), newValue);
+				}
+				// End of user code
+Start of user code  for failover retry error codes
+			if (isAccessible(EsbViewsRepository.AddressEndPoint.FailoverErrorCodes.failoverType)) {
+				basePart.initFailoverType(EEFUtils.choiceOfValues(addressEndPoint, EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverRetryType()), addressEndPoint.getFailoverRetryType());
+			}
+			if (isAccessible(EsbViewsRepository.AddressEndPoint.FailoverErrorCodes.failoverRetryErrorCodes)) {
+				basePart.setFailoverRetryErrorCodes(EEFConverterUtil.convertToString(EcorePackage.Literals.ESTRING, addressEndPoint.getFailoverRetryErrorCodes()));
+			}
+			if (isAccessible(EsbViewsRepository.AddressEndPoint.FailoverErrorCodes.failoverNonRetryErrorCodes)) {
+				basePart.setFailoverNonRetryErrorCodes(EEFConverterUtil.convertToString(EcorePackage.Literals.ESTRING, addressEndPoint.getFailoverNonRetryErrorCodes()));
+			}
+			// End of user code
+
+Sat Apr 27 15:30:20 IST 2019
+================================================================================
+Start of user code for help compatibility
+    /**
+     * @generated NOT
+     */
+    @Override
+    public String getHelpContent(Object key, int kind) {
+        return EEFPropertyViewUtil.getHelpContent(key);
+    }
+    // End of user code
+Start of user code for failover error codes
+				if (EsbViewsRepository.AddressEndPoint.FailoverErrorCodes.failoverType == event.getAffectedEditor()) {
+					Object newValue = event.getNewValue();
+					if (newValue instanceof String) {
+						newValue = EEFConverterUtil.createFromString(EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverRetryType().getEAttributeType(), (String)newValue);
+					}
+					ret = Diagnostician.INSTANCE.validate(EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverRetryType().getEAttributeType(), newValue);
+				}
+				
+				if (EsbViewsRepository.AddressEndPoint.FailoverErrorCodes.failoverRetryErrorCodes == event.getAffectedEditor()) {
+					Object newValue = event.getNewValue();
+					if (newValue instanceof String) {
+						newValue = EEFConverterUtil.createFromString(EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverRetryErrorCodes().getEAttributeType(), (String)newValue);
+					}
+					ret = Diagnostician.INSTANCE.validate(EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverRetryErrorCodes().getEAttributeType(), newValue);
+				}
+				
+				if (EsbViewsRepository.AddressEndPoint.FailoverErrorCodes.failoverNonRetryErrorCodes == event.getAffectedEditor()) {
+					Object newValue = event.getNewValue();
+					if (newValue instanceof String) {
+						newValue = EEFConverterUtil.createFromString(EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverNonRetryErrorCodes().getEAttributeType(), (String)newValue);
+					}
+					ret = Diagnostician.INSTANCE.validate(EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverNonRetryErrorCodes().getEAttributeType(), newValue);
+				}
+				// End of user code
+Start of user code  for failover retry error codes
+			if (isAccessible(EsbViewsRepository.AddressEndPoint.FailoverErrorCodes.failoverType)) {
+				basePart.initFailoverType(EEFUtils.choiceOfValues(addressEndPoint, EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverRetryType()), addressEndPoint.getFailoverRetryType());
+			}
+			if (isAccessible(EsbViewsRepository.AddressEndPoint.FailoverErrorCodes.failoverRetryErrorCodes)) {
+				basePart.setFailoverRetryErrorCodes(EEFConverterUtil.convertToString(EcorePackage.Literals.ESTRING, addressEndPoint.getFailoverRetryErrorCodes()));
+			}
+			if (isAccessible(EsbViewsRepository.AddressEndPoint.FailoverErrorCodes.failoverNonRetryErrorCodes)) {
+				basePart.setFailoverNonRetryErrorCodes(EEFConverterUtil.convertToString(EcorePackage.Literals.ESTRING, addressEndPoint.getFailoverNonRetryErrorCodes()));
+			}
+			// End of user code
+
+Mon Apr 29 15:21:47 IST 2019
+================================================================================
+Start of user code for help compatibility
+    /**
+     * @generated NOT
+     */
+    @Override
+    public String getHelpContent(Object key, int kind) {
+        return EEFPropertyViewUtil.getHelpContent(key);
+    }
+    // End of user code
+Start of user code for failover error codes
+				if (EsbViewsRepository.AddressEndPoint.FailoverErrorCodes.failoverType == event.getAffectedEditor()) {
+					Object newValue = event.getNewValue();
+					if (newValue instanceof String) {
+						newValue = EEFConverterUtil.createFromString(EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverRetryType().getEAttributeType(), (String)newValue);
+					}
+					ret = Diagnostician.INSTANCE.validate(EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverRetryType().getEAttributeType(), newValue);
+				}
+				
+				if (EsbViewsRepository.AddressEndPoint.FailoverErrorCodes.failoverRetryErrorCodes == event.getAffectedEditor()) {
+					Object newValue = event.getNewValue();
+					if (newValue instanceof String) {
+						newValue = EEFConverterUtil.createFromString(EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverRetryErrorCodes().getEAttributeType(), (String)newValue);
+					}
+					ret = Diagnostician.INSTANCE.validate(EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverRetryErrorCodes().getEAttributeType(), newValue);
+				}
+				
+				if (EsbViewsRepository.AddressEndPoint.FailoverErrorCodes.failoverNonRetryErrorCodes == event.getAffectedEditor()) {
+					Object newValue = event.getNewValue();
+					if (newValue instanceof String) {
+						newValue = EEFConverterUtil.createFromString(EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverNonRetryErrorCodes().getEAttributeType(), (String)newValue);
+					}
+					ret = Diagnostician.INSTANCE.validate(EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverNonRetryErrorCodes().getEAttributeType(), newValue);
+				}
+				// End of user code
+Start of user code  for failover retry error codes
+			if (isAccessible(EsbViewsRepository.AddressEndPoint.FailoverErrorCodes.failoverType)) {
+				basePart.initFailoverType(EEFUtils.choiceOfValues(addressEndPoint, EsbPackage.eINSTANCE.getAbstractEndPoint_FailoverRetryType()), addressEndPoint.getFailoverRetryType());
+			}
+			if (isAccessible(EsbViewsRepository.AddressEndPoint.FailoverErrorCodes.failoverRetryErrorCodes)) {
+				basePart.setFailoverRetryErrorCodes(EEFConverterUtil.convertToString(EcorePackage.Literals.ESTRING, addressEndPoint.getFailoverRetryErrorCodes()));
+			}
+			if (isAccessible(EsbViewsRepository.AddressEndPoint.FailoverErrorCodes.failoverNonRetryErrorCodes)) {
+				basePart.setFailoverNonRetryErrorCodes(EEFConverterUtil.convertToString(EcorePackage.Literals.ESTRING, addressEndPoint.getFailoverNonRetryErrorCodes()));
+			}
+			// End of user code

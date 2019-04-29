@@ -1,0 +1,185 @@
+
+Fri Apr 26 17:42:32 IST 2019
+================================================================================
+Start of user code
+		propertiesStep.addStep(EsbViewsRepository.CallTemplateMediator.Properties.commentsList);
+		propertiesStep.addStep(EsbViewsRepository.CallTemplateMediator.Properties.reverse);
+		propertiesStep.addStep(EsbViewsRepository.CallTemplateMediator.Properties.availableTemplates);
+		propertiesStep.addStep(EsbViewsRepository.CallTemplateMediator.Properties.templateParameters);
+		propertiesStep.addStep(EsbViewsRepository.CallTemplateMediator.Properties.targetTemplate);
+		propertiesStep.addStep(EsbViewsRepository.CallTemplateMediator.Properties.description);
+		
+		composer = new PartComposer(callTemplateMediatorStep) {
+
+			@Override
+			public Composite addToPart(Composite parent, Object key) {
+				if (key == EsbViewsRepository.CallTemplateMediator.Properties.class) {
+					return createPropertiesGroup(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallTemplateMediator.Properties.commentsList) {
+					return createCommentsListMultiValuedEditor(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallTemplateMediator.Properties.reverse) {
+					return createReverseCheckbox(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallTemplateMediator.Properties.availableTemplates) {
+					return createAvailableTemplatesText(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallTemplateMediator.Properties.templateParameters) {
+					return createTemplateParametersTableComposition(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallTemplateMediator.Properties.targetTemplate) {
+					return createTargetTemplateText(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallTemplateMediator.Properties.description) {
+					return createDescriptionText(widgetFactory, parent);
+				}
+				// End of user code
+
+Fri Apr 26 17:51:22 IST 2019
+================================================================================
+Start of user code
+		propertiesStep.addStep(EsbViewsRepository.CallTemplateMediator.Properties.commentsList);
+		propertiesStep.addStep(EsbViewsRepository.CallTemplateMediator.Properties.reverse);
+		propertiesStep.addStep(EsbViewsRepository.CallTemplateMediator.Properties.availableTemplates);
+		propertiesStep.addStep(EsbViewsRepository.CallTemplateMediator.Properties.templateParameters);
+		propertiesStep.addStep(EsbViewsRepository.CallTemplateMediator.Properties.targetTemplate);
+		propertiesStep.addStep(EsbViewsRepository.CallTemplateMediator.Properties.description);
+		
+		composer = new PartComposer(callTemplateMediatorStep) {
+
+			@Override
+			public Composite addToPart(Composite parent, Object key) {
+				if (key == EsbViewsRepository.CallTemplateMediator.Properties.class) {
+					return createPropertiesGroup(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallTemplateMediator.Properties.commentsList) {
+					return createCommentsListMultiValuedEditor(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallTemplateMediator.Properties.reverse) {
+					return createReverseCheckbox(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallTemplateMediator.Properties.availableTemplates) {
+					return createAvailableTemplatesText(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallTemplateMediator.Properties.templateParameters) {
+					return createTemplateParametersTableComposition(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallTemplateMediator.Properties.targetTemplate) {
+					return createTargetTemplateText(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallTemplateMediator.Properties.description) {
+					return createDescriptionText(widgetFactory, parent);
+				}
+				// End of user code
+
+Fri Apr 26 19:41:42 IST 2019
+================================================================================
+Start of user code
+		propertiesStep.addStep(EsbViewsRepository.CallTemplateMediator.Properties.commentsList);
+		propertiesStep.addStep(EsbViewsRepository.CallTemplateMediator.Properties.reverse);
+		propertiesStep.addStep(EsbViewsRepository.CallTemplateMediator.Properties.availableTemplates);
+		propertiesStep.addStep(EsbViewsRepository.CallTemplateMediator.Properties.templateParameters);
+		propertiesStep.addStep(EsbViewsRepository.CallTemplateMediator.Properties.targetTemplate);
+		propertiesStep.addStep(EsbViewsRepository.CallTemplateMediator.Properties.description);
+		
+		composer = new PartComposer(callTemplateMediatorStep) {
+
+			@Override
+			public Composite addToPart(Composite parent, Object key) {
+				if (key == EsbViewsRepository.CallTemplateMediator.Properties.class) {
+					return createPropertiesGroup(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallTemplateMediator.Properties.commentsList) {
+					return createCommentsListMultiValuedEditor(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallTemplateMediator.Properties.reverse) {
+					return createReverseCheckbox(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallTemplateMediator.Properties.availableTemplates) {
+					return createAvailableTemplatesText(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallTemplateMediator.Properties.templateParameters) {
+					return createTemplateParametersTableComposition(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallTemplateMediator.Properties.targetTemplate) {
+					return createTargetTemplateText(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallTemplateMediator.Properties.description) {
+					return createDescriptionText(widgetFactory, parent);
+				}
+				// End of user code
+
+Sat Apr 27 15:30:55 IST 2019
+================================================================================
+Start of user code
+		propertiesStep.addStep(EsbViewsRepository.CallTemplateMediator.Properties.commentsList);
+		propertiesStep.addStep(EsbViewsRepository.CallTemplateMediator.Properties.reverse);
+		propertiesStep.addStep(EsbViewsRepository.CallTemplateMediator.Properties.availableTemplates);
+		propertiesStep.addStep(EsbViewsRepository.CallTemplateMediator.Properties.templateParameters);
+		propertiesStep.addStep(EsbViewsRepository.CallTemplateMediator.Properties.targetTemplate);
+		propertiesStep.addStep(EsbViewsRepository.CallTemplateMediator.Properties.description);
+		
+		composer = new PartComposer(callTemplateMediatorStep) {
+
+			@Override
+			public Composite addToPart(Composite parent, Object key) {
+				if (key == EsbViewsRepository.CallTemplateMediator.Properties.class) {
+					return createPropertiesGroup(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallTemplateMediator.Properties.commentsList) {
+					return createCommentsListMultiValuedEditor(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallTemplateMediator.Properties.reverse) {
+					return createReverseCheckbox(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallTemplateMediator.Properties.availableTemplates) {
+					return createAvailableTemplatesText(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallTemplateMediator.Properties.templateParameters) {
+					return createTemplateParametersTableComposition(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallTemplateMediator.Properties.targetTemplate) {
+					return createTargetTemplateText(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallTemplateMediator.Properties.description) {
+					return createDescriptionText(widgetFactory, parent);
+				}
+				// End of user code
+
+Mon Apr 29 15:22:27 IST 2019
+================================================================================
+Start of user code
+		propertiesStep.addStep(EsbViewsRepository.CallTemplateMediator.Properties.commentsList);
+		propertiesStep.addStep(EsbViewsRepository.CallTemplateMediator.Properties.reverse);
+		propertiesStep.addStep(EsbViewsRepository.CallTemplateMediator.Properties.availableTemplates);
+		propertiesStep.addStep(EsbViewsRepository.CallTemplateMediator.Properties.templateParameters);
+		propertiesStep.addStep(EsbViewsRepository.CallTemplateMediator.Properties.targetTemplate);
+		propertiesStep.addStep(EsbViewsRepository.CallTemplateMediator.Properties.description);
+		
+		composer = new PartComposer(callTemplateMediatorStep) {
+
+			@Override
+			public Composite addToPart(Composite parent, Object key) {
+				if (key == EsbViewsRepository.CallTemplateMediator.Properties.class) {
+					return createPropertiesGroup(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallTemplateMediator.Properties.commentsList) {
+					return createCommentsListMultiValuedEditor(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallTemplateMediator.Properties.reverse) {
+					return createReverseCheckbox(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallTemplateMediator.Properties.availableTemplates) {
+					return createAvailableTemplatesText(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallTemplateMediator.Properties.templateParameters) {
+					return createTemplateParametersTableComposition(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallTemplateMediator.Properties.targetTemplate) {
+					return createTargetTemplateText(widgetFactory, parent);
+				}
+				if (key == EsbViewsRepository.CallTemplateMediator.Properties.description) {
+					return createDescriptionText(widgetFactory, parent);
+				}
+				// End of user code
